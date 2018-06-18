@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Soft Facturas | Soluciones para Restaurantes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum‐scale=1.0, user‐scalable=no">
+    <meta name="keywords" content="Restaurantes, facturas, softfacturas, factura electronica, National Soft Facturas" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="estilos.css" rel="stylesheet">
+    <link href="estilos2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-icon.css">    
+    <link rel="stylesheet" type="text/css" href="style-icon2.css">
+    
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-81440437-1', 'auto');
+                    ga('send', 'pageview');
+                </script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>  
+                </button>
+                <p class="navbar-brand"><a href="/"><img src="imagenes/spr_logo_tb(1).png" class="img-responsive" alt="logo-restaurantes" width="320" height="40"></a></p>
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/" class="ancla">Inicio</a></li>
+                    
+                    <li class="dropdown active">
+                        <a href="software" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown">Software<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu2">
+                            <!--<li role="presentation" class="dropdown-header">National Soft</li>-->
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="softrestaurant">Soft Restaurant</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="ontheminute">On The Minute</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="nshoteles">NS Hoteles</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="softfacturas">Soft Facturas</a>
+                            </li>
+                            <!--<li role="presentation" class="dropdown-header">Aspel</li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">COI</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">NOI</a>
+                            </li>-->
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Servicios<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#implementacion">Implementación</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#asesoria">Asesoría</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#consultoria">Consultoría</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#capacitacion">Capacitación</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#soporte">Soporte</a>
+                            </li>                           
+                        </ul>
+                    </li>
+
+
+                    <li><a href="calendario" class="ancla">Calendario</a></li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Hardware<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="hardware">Punto de venta</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Equipo computo y servidores</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Redes y comunicaciones</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Energía y regulación</a>
+                            </li>                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contacto<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <li><a href="nosotros" class="ancla">Sobre nosotros</a></li>
+                            </li> 
+                            <li role="presentation">
+                                <li><a href="contacto" class="ancla">Contactanos</a></li>
+                            </li>                                                 
+                        </ul>
+                    </li>
+
+                    
+                    
+                    <li class="dropdown grid">
+                        <a href="#" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="false" aria-expanded="true">Tienda<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu multi-column multi-column2">
+                        
+                            <div class="row menu-desp">
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Software</h4>
+                                    <!--h5>National Soft</h5>-->
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda-prev">SoftRestaurant</a></li>
+                                        <li><a class="list" href="tienda-prev">On The Minute</a></li>
+                                        <li><a class="list" href="tienda-prev">NS Hoteles</a></li>
+                                        <li><a class="list" href="tienda-prev">Soft Facturas</a></li>
+                                    </ul>
+                                    <!--<h5>Aspel</h5>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="#">COI</a></li>
+                                        <li><a class="list" href="#">NOI</a></li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Hardware</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda-prev">PCs</a></li>
+                                        <li><a class="list" href="tienda-prev">Miniprinter</a></li>
+                                        <li><a class="list" href="tienda-prev">Tabletas</a></li>
+                                        <li><a class="list" href="tienda-prev">Servidores</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Otros</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda-prev">Redes</a></li>
+                                        <li><a class="list" href="tienda-prev">Basculas</a></li>
+                                        <li><a class="list" href="tienda-prev">Cajon de dinero</a></li>
+                                        <li><a class="list" href="tienda-prev">Servidores</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Servicios</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda-prev">Instalación</a></li>
+                                        <li><a class="list" href="tienda-prev">Capacitación</a></li>
+                                        <li><a class="list" href="tienda-prev">Soporte</a></li>
+                                        <li><a class="list" href="tienda-prev">Consultoria</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="inicio-sf" id="inicio">
+    	<div class="container">
+    		<div class="row">
+    			<div class="wow fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s" >
+    				<div class="col-md-6 frase">
+    					<p><strong class="strong-facturas">Soft Facturas</strong> es el sistema que permite realizar o programar tus comprobantes fiscales vía internet.</p>
+    				</div>
+    			</div>
+    			<div class="wow fadeInDown"  data-wow-duration="2s" data-wow-delay="0.5s">
+    				<div class="col-md-6">
+    					<img src="images/sf-1.png" class="img-responsive">
+    				</div>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s" >
+    				<div class="col-md-12">
+	    				<p class="lead">Emite comprobantes desde cualquier lugar de una manera práctica, eficiente y segura.</p>
+		    			<center>
+                            <a href="contacto">
+                                <button class="btn btn-default btn-lg comprar">Comprar</button>
+                            </a>
+		    				<a href="#caracteristicas-sf" class="ancla2">
+                                <button class="btn btn-default btn-lg saber">Quiero saber más</button>                  
+                            </a>
+	    				</center>
+    				</div>
+    			</div>
+    			
+    		</div>
+    	</div>
+    </section>
+
+    <section class="porque-sf">
+        <div class="why-sf">
+            <div class="container">
+                <div class="row">
+                    <h1>¿Por qué adquirir <strong>Soft Facturas</strong> para tu restaurante?</h1>
+                </div>        
+            </div>
+        </div>        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-left lead">Con <b>Soft Facturas</b> puedes realizar o programar la emisión de tus comprobantes fiscales desde tu restaurante. ¡Y no te preocupes! El diseño amigable e intuitivo de <b>Soft Facturas</b> te guiará paso a paso para que puedas emitirlos sin problemas.</p>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p></p>
+                    <p class="text-left lead">Sigue vendiendo y haz crecer tu restaurante con <b>Soft Facturas</b>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secciones caracteristicas" id="caracteristicas-sf"> 
+    <div class="red">
+    	<div class="container">
+    		<div class="row">
+    			<div class="wow bounceIn"  data-wow-duration="2s" data-wow-delay="0.5s" >
+    				<center><img src="images/softfacturas.png" class="img-responsive"></center>
+    			</div>
+    			<div class="wow bounceInDown"  data-wow-duration="2s" data-wow-delay="0.5s" >
+	    			<div class="col-md-3">
+	    				<center><span class="icon-users"></span></center>
+	                    <h3 class="text-center">Gestion de usuarios</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-locked"></span></center>
+	                    <h3 class="text-center">Seguridad</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-time2"></span></center>
+	                    <h3 class="text-center">Programar comprobantes</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-pencil-square-o"></span></center>
+	                    <h3 class="text-center">Personalización de comprobantes</h3>
+	    			</div>
+	    		</div>
+    		</div>
+
+    		<div class="row">
+    			<div class="wow bounceInUp"  data-wow-duration="2s" data-wow-delay="0.5s" >
+	    			<div class="col-md-3">
+	    				<center><span class="icon-mobile-phone"></span></center>
+	                    <h3 class="text-center">Aplicación móvil</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-building"></span></center>
+	                    <h3 class="text-center">Gestión multiempresas</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-book"></span></center>
+	                    <h3 class="text-center">Catálogo de productos</h3>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<center><span class="icon-safe"></span></center>
+	                    <h3 class="text-center">Resguardo de información</h3>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+        </div>
+    </section>
+
+    <section class="movil">
+    	<div class="container">
+    		<div class="row">
+    			<div class="wow fadeIn"  data-wow-duration="2s" data-wow-delay="0.5s" >
+					<div class="col-md-5">
+	    				<img src="images/sf-3.png" class="img-responsive">
+	    			</div>
+    			</div>
+	    			
+    			<div class="col-md-7">
+    				<div class="wow flipInX"  data-wow-duration="2s" data-wow-delay="0.5s" >
+                        <div class="h1-responsive">
+                            <h1>Soft Facturas® <strong class="strong-facturas">Movil</strong></h1>
+                        </div>
+    					
+    				</div>
+    				<div class="wow slideInRight"  data-wow-duration="2s" data-wow-delay="0.5s" >
+    					<p>Ahora es posible realizar tus comprobantes fiscales desde tu celular o tablet.</p>
+	    				<div class="panel-group" id="accordion">
+						    <div class="panel panel-default">
+						      <div class="panel-heading">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Siempre disponible</a>
+						        </h4>
+						      </div>
+						      <div id="collapse1" class="panel-collapse collapse in">
+						        <div class="panel-body">Podrás crear, editar y reenviar tus comprobantes desde tu celular o dispositivo inteligente</div>
+						      </div>
+						    </div>
+						    <div class="panel panel-default">
+						      <div class="panel-heading">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Múltiples empresas</a>
+						        </h4>
+						      </div>
+						      <div id="collapse2" class="panel-collapse collapse">
+						        <div class="panel-body">En tu app podrás estar trabajando sobre multiples empresas para obtener un mejor desempeño </div>
+						      </div>
+						    </div>
+						    <div class="panel panel-default">
+						      <div class="panel-heading">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Estadísticas</a>
+						        </h4>
+						      </div>
+						      <div id="collapse3" class="panel-collapse collapse">
+						        <div class="panel-body">La app te dará información valiosa sobre tus clientes como: Montos facturados y montos por cobrar</div>
+						      </div>
+						    </div>
+						</div>
+	    				<center>
+                            <a href="https://play.google.com/store/apps/details?id=com.nationalsoft.softfacturas" target="_blank">
+                                <button class="btn btn-default btn-lg comprar">Descargar</button>
+                            </a>
+                        </center>
+	    			</div>	
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="timbres secciones">
+    <div class="white">
+       <div class="container">
+            <h2>Recuerda que para utilizar <strong>Soft Facturas</strong> sólo es necesario adquirir un paquete de timbres. Te ofrecemos las siguientes opciones:</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Timbres</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>20</td>
+                                <td>$100</td>                            
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td>$199</td>                            
+                            </tr>
+                            <tr>
+                                <td>200</td>
+                                <td>$379</td>                            
+                            </tr>
+                            <tr>
+                                <td>300</td>
+                                <td>$549</td>                            
+                            </tr>
+                            <tr>
+                                <td>500</td>
+                                <td>$899</td>                            
+                            </tr>
+                            <tr>
+                                <td>1000</td>
+                                <td>$1589</td>                            
+                            </tr>
+                            <tr>
+                                <td>5000</td>
+                                <td>$4599</td>                            
+                            </tr>
+                            <tr>
+                                <td>10000</td>
+                                <td>$8999</td>                            
+                            </tr>
+                            <tr>
+                                <td>50000</td>
+                                <td>$33899</td>                            
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>                    
+            </div>
+            <center>
+                <a href="contacto">
+                    <button class="btn btn-default btn-lg comprar">Comprar timbres</button>    
+                </a>
+            </center>
+        </div>           
+       </div> 
+       </div>
+    </section>
+
+    <section class="requerimientos">
+    	<div class="container">
+    		<h1>Requerimientos</h1>
+    		<div class="row">
+    			<div class="col-md-6">
+    				<p><span class=" icon-chevron-right"></span> Conexión a Internet</p>
+					<p><span class=" icon-chevron-right"></span> Navegadores recomendados: Google Chrome, Mozilla Firefox, Safari</p>
+    			</div>
+    			<div class="col-md-6">
+    				<p><span class=" icon-chevron-right"></span> Obtener con el SAT su certificado de Sello Digital</p>
+    				<p><span class=" icon-chevron-right"></span> Adquirir algún paquete de CFDI para comenzar a facturar</p>
+                </div>
+    		</div>
+    	</div>
+    </section>
+
+    <section id="footer" class="footer-section">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-3">                    
+                    <div class="inner">
+                        <div class="logo">
+                            <center><img src="images/iis_logo_blanco.png" class="img-responsive" alt="" height="60" width="117" /></center>
+                        </div>
+                       <p class="subtitle2">Soluciones para Restaurantes es el <b>área espeacializada</b> de Inelco IT Solutions dedicada a ofrecer soluciones a empresas del sector de <b>alimentos</b> y bebidas</p>
+                    </div>            
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="nada">
+                        <h4>Contacto</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda">
+                       <p class="lugar">Monterrey</p>
+                       <p>Edificio Cintermex</p>
+                       <p>Av. Fundidora N° 501 Int. 18</p>
+                        <p>64010  Monterrey, N.L</p>
+                       <p>(81) 1352 2020</p>
+                        <p class="lugar slp">San Luis Potosí</p>
+                       <p>Mariano Otero N° 610 Int.3</p>
+                       <p>Tequisquiapan</p>
+                       <p>78250 San Luis Potosi</p>
+                       <p>(444) 211 9009</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">                         
+                    <div class="nada">                                                    
+                       <h4>Enlaces</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda links">   
+                       <p><a href="softrestaurant"> Soft Restaurant</a> </p>
+                       <p><a href="softfacturas"> Soft Facturas</a> </p>
+                       <p><a href="ontheminute"> On the Minute</a></p>
+                       <p><a href="nshoteles"> NS Hoteles</a></p>
+                       <br>
+                       <p><a href="http://canirac.org.mx/" target="_blank">CANIRAC</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="nada">
+                       <h4>Redes sociales</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda">   
+                       <div class="social"> 
+                            <a href="https://es-la.facebook.com/softrest/" target="_blank"><span class="icon-facebook-square"></span></a>
+                            <a href="https://twitter.com/SolucionesRest" target="_blank"><span class="icon-twitter-square"></span></a>
+                            
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function() {                                                
+                                var defaults = {
+                                    containerID: 'toTop', // fading element id
+                                    containerHoverID: 'toTopHover', // fading element hover id
+                                    scrollSpeed: 1200,
+                                    easingType: 'linear' 
+                                };                                                              
+                                $().UItoTop({ easingType: 'easeOutQuart' });
+                                                
+                            });
+                        </script>
+                        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">top </span></a>                  
+                    </div>
+                </div>
+            </div>
+            <p class="copy">Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script> 
+    <script src="js/wow.min.js"></script>
+    <script src="js/hover-dropdown.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/seccion2.js"></script>
+</body>
+</html>

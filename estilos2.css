@@ -1,0 +1,1731 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1, h2, h3, h6 {
+    margin: 0 0 30px;
+    text-transform: ;
+    /*! font-family: 'Open Sans',sans-serif; */
+    /*! font-weight: 300; */
+    letter-spacing: px;
+}
+
+#solucion strong {
+    font-weight: 400;
+    color: #e68c1b;
+    font-size: 1em;
+}
+
+strong.service {
+    font-weight: 600;
+    color: #aaa;
+}
+
+strong {
+    font-weight: 400;
+    color: #e68c1b;
+    font-size: 1em;
+}
+
+h5.titulo-servicio {
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#service .col-md-4 a {
+    color: #CB6220;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-left: 0%;
+    /*! text-align: left; */
+}
+
+.solution-section p.text-left {
+    padding: 0 5em;
+}
+
+.bg-gray {
+    background: #f8f8f8;
+}
+
+.home-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: block;
+    position: relative;
+    z-index: 120;
+    background-color: #fff;
+}
+
+.boxed-grey:hover {
+    background: #EC7623;
+    color: #fff;
+}
+
+.section-heading h2 {
+    color: #555;
+    font-size: 2.3em;
+}
+
+.section-heading i {
+    margin-bottom: 20px;
+}
+
+hr {
+    /*! margin-top: 10px; */
+}
+
+
+/* margins */
+
+.marginbot-0 {
+    margin-bottom: 0 !important;
+}
+
+.marginbot-10 {
+    margin-bottom: 10px !important;
+}
+
+.marginbot-20 {
+    margin-bottom: 20px !important;
+}
+
+.marginbot-30 {
+    margin-bottom: 30px !important;
+}
+
+.marginbot-40 {
+    margin-bottom: 40px !important;
+}
+
+.marginbot-50 {
+    margin-bottom: 50px !important;
+}
+
+#loaderInner {
+    background: #ffffff url(../img/spinner.gif) center center no-repeat;
+    height: 60px;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+
+.team p.subtitle {
+    margin-bottom: 10px;
+}
+
+.team p.subtitle2 {
+    margin-bottom: 40px;
+}
+
+.feature_btn a:hover {
+    /*! color:#a44d0e!important; */
+}
+
+.boxed-grey {
+    background: #fff;
+    padding: 1em 0;
+    color: #666;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    border: #eee solid 1px;
+    /*! height: 300px; */
+    margin-bottom: 10px;
+}
+
+.feature_btn a {
+    vertical-align: bottom !important;
+    bottom: 10px !important;
+    background: #EC7623;
+    font-size: 16px;
+    padding: 1% 3%;
+    color: white;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p.descripcion {
+    font-size: 1.2em;
+    /*! margin-left: 30%; */
+    text-align: left;
+    font-weight: 300;
+    color: #555;
+}
+
+#solucion span {
+    color: #EC7623;
+    font-size: 4.5em;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+#service span {
+    color: #3e3e42;
+    font-size: 1.8em;
+}
+
+.solution-section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+
+.service-box {
+    padding-top: 8%;
+}
+
+.footer-section {
+    background-color: #CB6220;
+    color: #f0f4f6;
+}
+
+#footer .lugar {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#footer span {
+    -webkit-transform: all 0.3s ease-in;
+    -moz-transform: all 0.3s ease-in;
+    -o-transform: all 0.3s ease-in;
+    /*! transition: all 0.3s ease-in; */
+    font-size: 3em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer span:hover {
+    transform: translateY(-3px);
+}
+
+#footer span.subir {
+    color: #444;
+    float: right;
+    font-size: 3em;
+}
+
+#footer p.copy {
+    padding-top: 3%;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#footer .logo .img-responsive {
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 2em;
+    width: 70%;
+}
+
+#footer .subtitle2 {
+    text-align: justify;
+    padding-top: 4%;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.3;
+}
+
+#footer .nada h4 {
+    text-align: left;
+    padding-top: 10%;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#footer hr {
+    margin-top: 10px;
+}
+
+.nada p {
+    color: #666;
+}
+
+p.subtitle {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#footer .izquierda p {
+    text-align: left;
+    line-height: 0.6;
+    /*! font-weight: 300; */
+    font-size: 1em;
+}
+
+#footer .slp {
+    margin-top: 1.3em;
+}
+
+#footer .social a {
+    margin-right: 3%;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transform: all 0.5s ease-in;
+    -moz-transform: all 0.5s ease-in;
+    -o-transform: all 0.5s ease-in;
+    /*! transition: all 0.5s ease-in; */
+}
+
+#footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#footer span {
+    -webkit-transform: all 0.3s ease-in;
+    -moz-transform: all 0.3s ease-in;
+    -o-transform: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    font-size: 3em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#section-contacto {
+    background-color: #d8d8d8;
+}
+
+#footer-section.inner {
+    padding-top: 5%;
+}
+
+.inner2 {
+    /*! padding-top: 20%; */
+    /*! padding-left: 10%; */
+    margin-bottom: -1.6%;
+}
+
+.bajar {
+    padding-top: 20%;
+}
+
+
+/* ESTILOS SECTION SOFT-RESTAURANT*/
+
+.info-section {
+    background-image: url(imagenes/fondo-info.png);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5%;
+    /*! margin-top: 10%; */
+    /*! margin-bottom: 10%; */
+    max-width: 1450px;
+    overflow: hidden;
+}
+
+#info h4 {
+    text-align: left;
+    padding-top: 10%;
+    font-weight: 300;
+}
+
+#info .title p {
+    text-align: left;
+}
+
+#info h2 {
+    font-weight: 300;
+}
+
+#info .nota {
+    text-align: right;
+    padding-top: 10%;
+    bottom: 0%;
+    margin-bottom: 5%;
+}
+
+#info span {
+    font-size: 1.5em;
+    position: absolute;
+    color: #fff;
+    left: 5%;
+    margin-top: 9%;
+}
+
+#movil {
+    background-color: #f9f0f0;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#movil .img {
+    padding-top: 15%;
+}
+
+#movil h4 {
+    font-size: 3em;
+    text-align: right;
+    padding-top: %;
+    font-weight: 300;
+}
+
+#movil h5 {
+    font-size: ;
+    text-align: right;
+    padding-right: 5%;
+}
+
+#movil p {
+    text-align: right;
+    padding-bottom: 10%;
+}
+
+#movil img {
+    /*! padding-top: 20%; */
+}
+
+#movil .caption .nosotros-a {
+    background: #CB6220;
+    opacity: 0.9;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 100px auto 0;
+    margin-right: 1%;
+    font-weight: 300;
+    border-radius: 2px;
+    width: 2.5em;
+    height: 9em;
+}
+
+#movil .caption .nosotros-a:hover {
+    background: #9a4a18;
+    border-color: #9a4a18;
+}
+
+#movil .caracteristicas {
+    text-align: right;
+    padding-right: 7%;
+    padding-right: 1%;
+}
+
+#movil .feature_btn {
+    padding-top: 10%;
+}
+
+#movil span {
+    position: absolute;
+    font-size: 1.8em;
+    color: #e68c1b;
+    margin-top: -1%;
+    left: 96%;
+}
+
+#movil .panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+#movil .panel-heading {
+    color: none;
+    background-color: none;
+    border-color: none;
+}
+
+#movil a {
+    text-decoration: none;
+}
+
+#movil a:hover {
+    font-weight: bold;
+}
+
+#movil .nota {
+    text-align: right;
+    padding-top: 10%;
+    bottom: 0%;
+    margin-bottom: 5%;
+}
+
+
+/*<!--SECCION REQUISITOS-->*/
+
+#requisitos {
+    /*! margin-top: 10%; */
+    background: #ECECEC;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#requisitos .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#requisitos h4 {
+    font-size: 2.5em;
+    padding-top: 5%;
+    text-align: left;
+}
+
+#requisitos p {
+    text-align: left;
+    padding-top: 3%;
+}
+
+#requisitos h3 {
+    text-align: left;
+    margin-top: 5%;
+}
+
+#requisitos th {
+    background: #e68c1b;
+    color: #fff;
+}
+
+#requisitos2 {
+    /*! margin-top: 10%; */
+    background: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#requisitos2 .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#requisitos2 h4 {
+    font-size: 2.5em;
+    padding-top: 5%;
+    text-align: left;
+}
+
+#requisitos2 p {
+    text-align: left;
+    padding-top: 3%;
+}
+
+#requisitos2 h3 {
+    text-align: left;
+    margin-top: 5%;
+}
+
+#requisitos2 th {
+    background: #e68c1b;
+    color: #fff;
+}
+
+#restauran .caption .nosotros-a {
+    background: #CB6220;
+    /*! opacity: 0.9; */
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 0em 2em;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+#restauran {
+    background-image: url(imagenes/Soluciones-para-restaurantes-softrestaurant-banner-modo-operacion1.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5%;
+    /*! margin-top: 10%; */
+    /*! margin-bottom: 10%; */
+    max-width: 1450px;
+    overflow: hidden;
+}
+
+#restauran .caption .nosotros-a:hover {
+    background: #9a4a18;
+    border-color: #9a4a18;
+}
+
+#restauran .caption .sol-a {
+    background: none;
+    /*! opacity: 0.9; */
+    color: #CB6220;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    font-weight: 300;
+    border-radius: 2px;
+    width: 9em;
+    height: 2.5em;
+}
+
+#restauran .caption .sol-a:hover {
+    background: #CB6220;
+    color: #fff;
+}
+
+#restauran .subtitle {
+    padding-bottom: 0%;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#restauran h2 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 0%;
+    line-height: 1.6em;
+}
+
+/*Restaurant banner de promocion*/
+#restauranpromo .caption .nosotros-a {
+    background: #CB6220;
+    /*! opacity: 0.9; */
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 0em 2em;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+#restauranpromo {
+    background-image: url(images/Soluciones-para-restaurantes-banner-promocion.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5%;
+    /*! margin-top: 10%; */
+    /*! margin-bottom: 10%; */
+    max-width: 1450px;
+    overflow: hidden;
+}
+
+#restauranpromo .caption .nosotros-a:hover {
+    background: #9a4a18;
+    border-color: #9a4a18;
+}
+
+#restauranpromo .caption .sol-a {
+    background: none;
+    /*! opacity: 0.9; */
+    color: #CB6220;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    font-weight: 300;
+    border-radius: 2px;
+    width: 9em;
+    height: 2.5em;
+}
+
+#restauranpromo .caption .sol-a:hover {
+    background: #CB6220;
+    color: #fff;
+}
+
+#restauranpromo .subtitle {
+    padding-bottom: 0%;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#restauranpromo h2 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 0%;
+    line-height: 1.6em;
+}
+
+/*ESTILOS MODULO NATIONAL SOFT*/
+
+#national {
+    padding-bottom: 10%;
+    background-image: url(imagenes/fondo-nshoteles.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    max-width: 1450px;
+}
+
+#national .feature_btn a {
+    background: #BC973F;
+    font-size: 1em;
+    padding: .8em 4em;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #BC973F;
+    text-decoration: none;
+    text-orientation: center;
+    font-weight: 900;
+}
+
+#national .feature_btn a:hover {
+    color: #fff;
+    background-color: #7E6B3D;
+}
+
+#national .feature_btn2 a {
+    background: #fff;
+    font-size: 1em;
+    padding: .8em 4em;
+    color: #BC973F;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #BC973F;
+    /*! text-transform: uppercase; */
+    text-decoration: none;
+    text-orientation: center;
+    font-weight: 900;
+}
+
+#national .feature_btn2 a:hover {
+    color: #fff;
+    background-color: #BC973F;
+}
+
+#national .otro-color {
+    color: #BC973F;
+}
+
+#national h2 {
+    text-align: left;
+    font-size: 3em;
+    line-height: 1.6em;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    font-weight: 300;
+}
+
+#national .img-responsive {
+    padding-top: 20%;
+    padding-bottom: %;
+}
+
+#national .subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 0%;
+}
+
+#national-hotel h4 {
+    text-align: left;
+    padding-top: 5%;
+    line-height: 0.1;
+}
+
+#national-hotel .title p {
+    text-align: left;
+}
+
+#national-hotel p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-left: 0%;
+    text-align: center;
+}
+
+#national-hotel {
+    background-image: url(imagenes/Imagen1.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 10%;
+    /*! margin-bottom: 10%; */
+    max-width: 1450px;
+    overflow: hidden;
+    line-height: 1em;
+    padding-bottom: 15%;
+}
+
+#national-hotel-requisitos {
+    margin-bottom: 5%;
+}
+
+#national-hotel-requisitos h4 {
+    text-align: left;
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+#national-hotel-requisitos hr {
+    background-color: #BC973F;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    margin-top: -0.5%;
+}
+
+#national-hotel-requisitos .requiere {
+    padding-bottom: 5%;
+}
+
+#national-hotel-requisitos span {
+    font-size: 2em;
+    position: absolute;
+    color: #BC973F;
+    left: 1%;
+}
+
+#national-hotel-requisitos p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-left: 0%;
+    text-align: left;
+}
+
+#requisitos hr {
+    background-color: #E68C1B;
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    margin-top: 0%;
+}
+
+#requisitos2 hr {
+    background-color: #E68C1B;
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    margin-top: 0%;
+}
+
+
+/*ESTILOS PARA LA SECCION DE MAS INFORMACION DE SOFT RESTAURANTES*/
+
+#mas-info .titulo1 {
+    padding-top: 10%;
+    text-align: left;
+}
+
+#mas-info .img1 {
+    padding-top: 50%;
+    text-align: left;
+}
+
+#mas-info .puntos {
+    text-align: left;
+    padding-top: 10%;
+}
+
+#mas-info .text {
+    /*! padding-top:10%; */
+    text-align: justify;
+    margin-top: 20%;
+}
+
+#mas-info .texto {
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+
+/*///////////////////////////////////////////*/
+
+.texto-info {
+    text-align: left;
+    padding-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#info1 p {
+    text-align: left;
+    font-size: 1.2em;
+    /*! float: left; */
+}
+
+#info1 .logo-soft {
+    /*! padding-top: 5%; */
+}
+
+#giro {
+    /*! margin-top: 10%; */
+    /*! margin-bottom: 10%; */
+    background-color: #fff;
+    /*! top: 0; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#giro .lista ul {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 5%;
+    margin: 0px;
+}
+
+#giro .lista li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 5%;
+}
+
+#giro h2 {
+    font-weight: 300;
+    text-align: left;
+}
+
+#sec2 {
+    background-color: rgba(155, 155, 155, 0.3);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#sec2 .boxed-grey {
+    background: #f9f0f0;
+    padding: 1em 0;
+    color: #E68C1B;
+    -webkit-transition: all 0.7s ease-in;
+    -moz-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in;
+    border: #eee solid 1px;
+    /*! height: 25em; */
+    /*! width: 20em; */
+    padding-top: 10%;
+    /*! margin-left: 20%; */
+    text-align: center;
+}
+
+#sec2 .boxed-grey2 {
+    background: #fff;
+    padding: 1em 0;
+    color: #E68C1B;
+    -webkit-transition: all 0.7s ease-in;
+    -moz-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in;
+    border: #eee solid 1px;
+    /*! height: 25em; */
+    /*! width: 20em; */
+    padding-top: 10%;
+}
+
+#sec2 .inner {
+    text-align: center;
+}
+
+#sec2 span {
+    font-size: 3em;
+    text-align: center;
+    color: #444343;
+}
+
+#sec2 .panel-body {
+    color: #444343;
+    text-align: justify;
+}
+
+#sec2 button {}
+
+#sec2 #texto-oculto, #texto-oculto2, #texto-oculto3 {
+    color: #665d5d;
+    padding: 5%;
+}
+
+#giro1 {
+    background-color: #fff;
+    padding-bottom: 0%;
+    padding-top: 5%;
+}
+
+#giro1 p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-left: 0%;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+#giro1 h1 {
+    font-weight: 300;
+    padding-bottom: 5%;
+    font-size: 3em;
+}
+
+#giro1 h5 {
+    font-size: 1em;
+    font-weight: 300;
+    color: #e68c1b;
+}
+
+#giro1 .nota {
+    text-align: right;
+    padding-top: 10%;
+    bottom: 0%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+}
+
+#restauran {
+    background-color: #fff;
+    padding-bottom: 5%;
+    padding-top: 0%;
+}
+
+#restauran .col-md-5 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#restauranpromo {
+    background-color: #fff;
+    padding-bottom: 5%;
+    padding-top: 0%;
+}
+
+#restauranpromo .col-md-5 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#info1 {
+    /*! margin-top: 10%; */
+    /*! bottom: 20%; */
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#giro .img-responsive {
+    -webkit-transition: all .9s ease;
+    /* Safari y Chrome */
+    -moz-transition: all .9s ease;
+    /* Firefox */
+    -o-transition: all .9s ease;
+    /* IE 9 */
+    -ms-transition: all .9s ease;
+    /* Opera */
+    width: auto;
+    cursor: pointer;
+    padding-bottom: 10%;
+}
+
+#giro .img-responsive:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+#sf h1 {
+    color: #D17237;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#sf {
+    background-color: #fff;
+}
+
+#sec2 .nosotros-a, .nosotros-a2, .nosotros-a3 {
+    background: #CB6220;
+    opacity: 0.9;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 50px auto 0;
+    margin-right: 1%;
+    height: 2.5em;
+    width: 9em;
+    border-radius: 2px;
+}
+
+#sec2 .nosotros-a:hover, .nosotros-a2:hover, .nosotros-a3:hover {
+    background: #9a4a18;
+    border-color: #9a4a18;
+}
+
+@media(max-width: 1199px) {
+    #info1 #img {
+        height: 11.66%;
+        float: left;
+    }
+    #info1 .texto-info {
+        font-size: 0.8em;
+        /*! padding-top: 15%; */
+        /*! padding-left: 35%; */
+    }
+}
+
+@media(max-width: 1024px) {
+    #info1 .texto-info {
+        font-size: 0.8em;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+    #ventana5 .container {
+        background-color: #e68c1b;
+        padding-top: 1%;
+        margin-top: -8%;
+        color: #fff;
+        text-align: center;
+        width: auto;
+    }
+}
+
+@media(max-width: 991px) {
+    #beneficios p {
+        padding-top: 3%;
+        padding-left: 15%;
+        padding-right: 29%;
+    }
+    #info .img-responsive {
+        width: 61.66%;
+    }
+    #info span {
+        font-size: 1.5em;
+        position: absolute;
+        color: #fff;
+        left: 3%;
+        margin-top: 10%;
+    }
+    #restauran .img-responsive {
+        width: 61.66%;
+        margin: 0 auto;
+    }
+
+    #restauranpromo .img-responsive {
+        width: 61.66%;
+        margin: 0 auto;
+    }
+    #info1 .img-responsive {
+        width: 31.66%;
+        float: left;
+        padding-top: 1.5%;
+    }
+    #info1 .img-responsive .logo {
+        width: 41.66%;
+        float: left;
+    }
+    #info1 .texto-info {
+        font-size: 0.8em;
+        padding-top: 25%;
+        padding-left: 35%;
+    }
+    #cm .img-responsive {
+        width: 31.66%;
+        float: left;
+        padding-top: 1.5%;
+    }
+    #beneficios .titulo1 {
+        float: right;
+    }
+}
+
+@media(max-width:767px) {
+    #info .img-responsive {
+        width: 61.66%;
+    }
+    #info span {
+        font-size: 1.5em;
+        position: absolute;
+        color: #fff;
+        left: 3%;
+        margin-top: 10%;
+    }
+    #restauran .img-responsive {
+        width: 61.66%;
+        align: center;
+    }
+    #restauranpromo .img-responsive {
+        width: 61.66%;
+        align: center;
+    }
+    #info1 .img-responsive {
+        width: 31.66%;
+        float: left;
+    }
+    #info1 .texto-info {
+        font-size: 0.8em;
+        padding-top: 20%;
+        padding-left: 35%;
+    }
+    #restauranpromo .subtitle {
+        padding-bottom: 5%;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    #beneficios p {
+        padding-top: 3%;
+        padding-left: 15%;
+        padding-right: 29%;
+    }
+    .saber, .comprar {
+        margin-top: 2%;
+        width: 30%;
+        font-size: 90%;
+    }
+    #restauran .comprar {
+        margin-top: 2%;
+        width: 20%;
+        border-radius: 0;
+        background: #CB6220;
+        color: #fff;
+        text-align: center;
+        font-size: .8em;
+    }
+    #restauran .saber {
+        margin-top: 2%;
+        width: 20%;
+        border-radius: 0;
+        background: #fff;
+        color: #CB6220;
+        border: solid #CB6220 1px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    #restauranpromo .comprar {
+        margin-top: 2%;
+        width: 20%;
+        border-radius: 0;
+        background: #CB6220;
+        color: #fff;
+        text-align: center;
+        font-size: .8em;
+    }
+    #restauranpromo .saber {
+        margin-top: 2%;
+        width: 20%;
+        border-radius: 0;
+        background: #fff;
+        color: #CB6220;
+        border: solid #CB6220 1px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
+@media(max-width:480px) {
+    #info .img-responsive {
+        width: 41.66%;
+    }
+    #info span {
+        font-size: 1.5em;
+        position: absolute;
+        color: #fff;
+        left: 3%;
+        margin-top: 10%;
+    }
+    #restauran .img-responsive {
+        width: 41.66%;
+        align: center;
+    }
+    #restauran h2 {
+        font-size: 1.2em;
+    }
+    #restauranpromo .img-responsive {
+        width: 41.66%;
+        align: center;
+    }
+    #restauranpromo h2 {
+        font-size: 1.2em;
+    }
+    #info1 .img-responsive {
+        width: 21.66%;
+    }
+    #info1 .texto-info {
+        font-size: 0.6em;
+        padding-top: 15%;
+        padding-left: 25%;
+        /*! float: right; */
+    }
+    #restauran .subtitle {
+        padding-bottom: 5%;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    #restauranpromo .subtitle {
+        padding-bottom: 5%;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    #beneficios p {
+        padding-top: 3%;
+        padding-left: 15%;
+        padding-right: 29%;
+    }
+    #restauran .comprar {
+        margin-top: 2%;
+        width: 25%;
+        border-radius: 0;
+        background: #CB6220;
+        color: #fff;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    #restauran .saber {
+        margin-top: 2%;
+        width: 25%;
+        border-radius: 0;
+        background: #fff;
+        color: #CB6220;
+        border: solid #CB6220 1px;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    #restauranpromo .comprar {
+        margin-top: 2%;
+        width: 25%;
+        border-radius: 0;
+        background: #CB6220;
+        color: #fff;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    #restauranpromo .saber {
+        margin-top: 2%;
+        width: 25%;
+        border-radius: 0;
+        background: #fff;
+        color: #CB6220;
+        border: solid #CB6220 1px;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    #pv p {
+        font-size: 1em;
+    }
+    #iv p {
+        font-size: 1em;
+    }
+    #pv h2 {
+        color: #e68c1b;
+        font-size: 2em;
+        font-weight: 300;
+        padding-top: 5%;
+    }
+    #iv h2 {
+        color: #e68c1b;
+        font-size: 2em;
+        font-weight: 300;
+        padding-top: 5%;
+    }
+    #national h2 {
+        text-align: left;
+        font-size: 2em;
+        line-height: 1.3em;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        font-weight: 300;
+    }
+    #national .comprar {
+        margin-top: 2%;
+        width: 30%;
+        border-radius: 0;
+        background: #AC8430;
+        color: #fff;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    #national .saber {
+        margin-top: 2%;
+        width: 30%;
+        border-radius: 0;
+        background: #fff;
+        color: #AC8430;
+        border: solid #AC8430 1px;
+        text-align: center;
+        font-size: 0.5em;
+    }
+}
+
+@media(max-width: 330px) {
+    #pv p {
+        font-size: 1em;
+    }
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 26px;
+    right: 3%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border: none;
+    text-indent: 100%;
+    background: url("imagenes/up-arrow.png") no-repeat 0px 0px;
+}
+
+#pv {
+    padding-bottom: 5%;
+    background-color: #f9f0f0;
+}
+
+#pv .caption .sol-a {
+    background: none;
+    /*! opacity: 0.9; */
+    color: #CB6220;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CB6220;
+    font-weight: 300;
+    border-radius: 2px;
+    /*! width: 9em; */
+    /*! height: 2.5em; */
+}
+
+#pv .caption .sol-a:hover {
+    background: #CB6220;
+    color: #fff;
+}
+
+#pv .caption a {
+    padding: 2% 10%;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+#pv h2 {
+    color: #e68c1b;
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+#pv p {
+    font-size: 1.2em;
+}
+
+#pv .col-md-4 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#iv {
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+#iv .caption .sol-a {
+    background: #CB6220;
+    /*! opacity: 0.9; */
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CB6220;
+    font-weight: 300;
+    border-radius: 2px;
+    /*! width: 9em; */
+    /*! height: 2.5em; */
+}
+
+#iv .caption .sol-a:hover {
+    background: #fff;
+    color: #CB6220;
+}
+
+#iv .caption a {
+    padding: 2% 10%;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+#iv h2 {
+    color: #e68c1b;
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+#iv p {
+    font-size: 1.2em;
+}
+
+#iv .col-md-4 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#cm {
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+#cm h1 {
+    font-size: 5em;
+    font-weight: 300;
+    color: #e68c1b;
+    padding-top: 5%;
+    text-align: center;
+    padding-top: 0%;
+}
+
+#cm h2 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #e68c1b;
+    padding-top: 5%;
+}
+
+#cm p {
+    padding-left: 5%;
+    padding-top: 20%;
+    line-height: 2.1em;
+    font-size: 1.2em;
+}
+
+#beneficios {
+    background-color: #f9f0f0;
+}
+
+#beneficios h1 {
+    font-size: 3em;
+    font-weight: 300;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#beneficios .col-md-4 {
+    padding-bottom: 5%;
+}
+
+#beneficios .titulo1 {
+    padding-bottom: 20%;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+}
+
+#beneficios .titulo2 {
+    padding-bottom: 18%;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 5%;
+}
+
+#beneficios #icon {
+    padding-bottom: 20%;
+}
+
+#beneficios .list-group-item {
+    position: relative;
+    display: block;
+    /*! padding: 10px 15px; */
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+    /*! float: left; */
+    padding-bottom: 5%;
+}
+
+#beneficios img {
+    float: left;
+    padding-top: 0%;
+}
+
+#beneficios p {
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 29%;
+}
+
+.caption .nosotros-a {
+    background: #CB6220;
+    opacity: 0.9;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 0em 2em;
+    font-weight: 300;
+}
+
+.caption a {
+    padding: 1% 3%;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+#restauran .comprar {
+    margin-top: 2%;
+    /*! width: 20%; */
+    border-radius: 0;
+    background: #CB6220;
+    color: #fff;
+    text-align: center;
+}
+
+#restauran .comprar:hover {
+    border-color: #FFF;
+    background: #A8541E;
+    color: #fff;
+}
+
+#restauran .saber {
+    margin-top: 2%;
+    /*! width: 20%; */
+    border-radius: 0;
+    background: #fff;
+    color: #CB6220;
+    border: solid #CB6220 1px;
+    text-align: center;
+}
+
+#restauran .saber:hover {
+    background: #CB6220;
+    color: #fff;
+    border-color: #fff;
+}
+
+#restauranpromo .comprar:hover {
+    border-color: #FFF;
+    background: #A8541E;
+    color: #fff;
+}
+
+#restauranpromo .saber {
+    margin-top: 2%;
+    /*! width: 20%; */
+    border-radius: 0;
+    background: #fff;
+    color: #CB6220;
+    border: solid #CB6220 1px;
+    text-align: center;
+}
+
+#restauranpromo .saber:hover {
+    background: #CB6220;
+    color: #fff;
+    border-color: #fff;
+}
+
+#national .comprar {
+    margin-top: 2%;
+    width: 20%;
+    border-radius: 0;
+    background: #AC8430;
+    color: #fff;
+}
+
+#national .comprar:hover {
+    border-color: #FFF;
+    background: #8A681C;
+    color: #fff;
+}
+
+#national .saber {
+    margin-top: 2%;
+    width: 20%;
+    border-radius: 0;
+    background: #fff;
+    color: #AC8430;
+    border: solid #AC8430 1px;
+}
+
+#national .saber:hover {
+    background: #AC8430;
+    color: #fff;
+    border-color: #fff;
+}
+
+#requerimientos h1 {
+    color: #E9863D;
+}
+
+/*fondo para soft facturas*/
+
+#softfactura {
+    background-image: url(imagenes/Soluciones-para-restaurantes-banner-softfactura.png);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5%;
+    /*! margin-top: 10%; */
+    /*! margin-bottom: 10%; */
+    max-width: 1450px;
+    overflow: hidden;
+}

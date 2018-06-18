@@ -1,0 +1,42 @@
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-15 18:40:02
+         compiled from "/hsphere/local/home/c265935/solucionespararestaurantes.mx/tienda/themes/default-bootstrap/modules/blockcontact/nav.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:112020907157b252d22a3e35-92585615%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'b43504c7cdd9d67e05007bf732a55f3e5544b221' => 
+    array (
+      0 => '/hsphere/local/home/c265935/solucionespararestaurantes.mx/tienda/themes/default-bootstrap/modules/blockcontact/nav.tpl',
+      1 => 1470768052,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '112020907157b252d22a3e35-92585615',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'is_logged' => 0,
+    'link' => 0,
+    'telnumber' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_57b252d22cc778_69106495',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57b252d22cc778_69106495')) {function content_57b252d22cc778_69106495($_smarty_tpl) {?>
+<div id="contact-link" <?php if (isset($_smarty_tpl->tpl_vars['is_logged']->value)&&$_smarty_tpl->tpl_vars['is_logged']->value) {?> class="is_logged"<?php }?>>
+	<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('contact',true), ENT_QUOTES, 'UTF-8', true);?>
+" title="<?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcontact'),$_smarty_tpl);?>
+"><?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcontact'),$_smarty_tpl);?>
+</a>
+</div>
+<?php if ($_smarty_tpl->tpl_vars['telnumber']->value) {?>
+	<span class="shop-phone<?php if (isset($_smarty_tpl->tpl_vars['is_logged']->value)&&$_smarty_tpl->tpl_vars['is_logged']->value) {?> is_logged<?php }?>">
+		<i class="icon-phone"></i><?php echo smartyTranslate(array('s'=>'Call us now:','mod'=>'blockcontact'),$_smarty_tpl);?>
+ <strong><?php echo $_smarty_tpl->tpl_vars['telnumber']->value;?>
+</strong>
+	</span>
+<?php }?>
+<?php }} ?>

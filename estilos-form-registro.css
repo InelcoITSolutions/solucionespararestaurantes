@@ -1,0 +1,68 @@
+body{
+	font-family: 'Open Sans'; 
+    font-weight: 300; 
+}
+
+.form-horizontal{
+	padding-top: 5%;
+    padding-bottom:5%;
+}
+
+.mayus{
+	text-transform: uppercase;
+}
+
+header{
+    background: #CB6220;
+}
+
+.img-responsive{
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.lead{
+    padding: 4% 0 0 0;
+    font-size: 1.3em;
+}
+
+#accordion a{
+	text-decoration: none;
+	color: #777;
+	font-size: 1em;
+}
+
+#accordion a:hover{
+	text-decoration: none;
+	color: #CB6220;
+}
+
+.panel-heading{
+	background: #fff;
+}
+
+.panel{
+	background: #fff;
+	color: #555;
+}
+
+.btn-default{
+    width: 50%;
+    border: #fff solid 2px;   
+    background-color: #CB6220;
+    color:white;
+    font-size:1.5em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 1s;
+}
+
+.btn-default:hover{
+    color: #CB6220;
+	  border: 2px solid #CB6220;
+	  background: #fff;
+}
+
+
+

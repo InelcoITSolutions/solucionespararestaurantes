@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Eventos | Soluciones para Restaurantes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum‐scale=1.0, user‐scalable=no">
+    <meta name="keywords" content="Restaurantes, facturas, softfacturas, factura electronica" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-icon.css">    
+    <link rel="stylesheet" type="text/css" href="style-icon2.css">
+    <style type="text/css"> </style>
+    <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                    ga('create', 'UA-81440437-1', 'auto');
+                    ga('send', 'pageview');
+                </script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>  
+                </button>
+                <p class="navbar-brand"><a href="/"><img src="imagenes/spr_logo_tb(1).png" class="img-responsive" alt="logo-restaurantes" width="320" height="40"></a></p>
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/" class="ancla">Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="software" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown">Software<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu2">
+                            <!--<li role="presentation" class="dropdown-header">National Soft</li>-->
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="softrestaurant">Soft Restaurant</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="ontheminute">On The Minute</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="nshoteles">NS Hoteles</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="softfacturas">Soft Facturas</a>
+                            </li>
+                            <!--<li role="presentation" class="dropdown-header">Aspel</li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">COI</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">NOI</a>
+                            </li>-->
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Servicios<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#implementacion">Implementación</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#asesoria">Asesoría</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#consultoria">Consultoría</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#capacitacion">Capacitación</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="servicios#soporte">Soporte</a>
+                            </li>                           
+                        </ul>
+                    </li>
+
+
+                    <li><a href="calendario" class="ancla">Calendario</a></li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Hardware<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="hardware">Punto de venta</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Equipo computo y servidores</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Redes y comunicaciones</a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">Energía y regulación</a>
+                            </li>                        
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contacto<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation">
+                                <li><a href="nosotros" class="ancla">Sobre nosotros</a></li>
+                            </li> 
+                            <li role="presentation">
+                                <li><a href="contacto" class="ancla">Contactanos</a></li>
+                            </li>                                                 
+                        </ul>
+                    </li>
+
+                    
+                    
+                    <li class="dropdown grid">
+                        <a href="#" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="false" aria-expanded="true">Tienda<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu multi-column multi-column2">
+                        
+                            <div class="row menu-desp">
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Software</h4>
+                                    <!--h5>National Soft</h5>-->
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda">SoftRestaurant</a></li>
+                                        <li><a class="list" href="tienda">On The Minute</a></li>
+                                        <li><a class="list" href="tienda">NS Hoteles</a></li>
+                                        <li><a class="list" href="tienda">Soft Facturas</a></li>
+                                    </ul>
+                                    <!--<h5>Aspel</h5>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="#">COI</a></li>
+                                        <li><a class="list" href="#">NOI</a></li>
+                                    </ul>-->
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Hardware</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda">PCs</a></li>
+                                        <li><a class="list" href="tienda">Miniprinter</a></li>
+                                        <li><a class="list" href="tienda">Tabletas</a></li>
+                                        <li><a class="list" href="tienda">Servidores</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Otros</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda">Redes</a></li>
+                                        <li><a class="list" href="tienda">Basculas</a></li>
+                                        <li><a class="list" href="tienda">Cajon de dinero</a></li>
+                                        <li><a class="list" href="tienda">Servidores</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-3 menu-grids">
+                                    <h4>Servicios</h4>
+                                    <ul class="multi-column-dropdown">
+                                        <li><a class="list" href="tienda">Instalación</a></li>
+                                        <li><a class="list" href="tienda">Capacitación</a></li>
+                                        <li><a class="list" href="tienda">Soporte</a></li>
+                                        <li><a class="list" href="tienda">Consultoria</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="calendar" class="secciones">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.5s" >
+                        <h1>Calendario</h1>
+                    </div>
+                    <div class="wow fadeInDown" data-wow-delay="1s" >
+                        <p>A continuación te presentamos nuestros próximos cursos, talleres y otros eventos importantes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section class="eventos">
+        <div class="container">
+            <div class="wow slideInRight" data-wow-delay="1s" >
+                <h2>Julio 2016</h2>
+            </div>
+            <div class="wow slideInRight" data-wow-delay="1s" >
+                <div class="row">
+                    <div class="col-md-2 fechaev">
+                        <p class="numero">7</p>
+                        <p class="dia">Jueves</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Titulo del curso</h3>
+                        <p>Descripcion del curso</p>
+                        <p>Duracion del evento</p>
+                    </div>
+                    <div class="col-md-2">
+                        <center><button class="btn btn-default btn-lg">Ver evento</button></center>
+                    </div>
+                </div>
+            </div>
+            <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s" >
+                <div class="row">
+                    <div class="col-md-2 fechaev">
+                        <p class="numero">14</p>
+                        <p class="dia">Jueves</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Webinar Soft Restaurant</h3>
+                        <p>Acompáñanos en este webinar gratuito sobre Soft Restaurant</p>
+                        <p>14:00 – 15:30</p>
+                    </div>
+                    <div class="col-md-2">
+                        <center><button class="btn btn-default btn-lg">Ver evento</button></center>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s" >
+                <div class="row">            
+                    <div class="col-md-2 fechaev">
+                        <p class="numero">21</p>
+                        <p class="dia">Jueves</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Webinar Soft Facturas</h3>
+                        <p>Acompáñanos en este webinar gratuito sobre Soft Facturas</p>
+                        <p>16:00 – 17:30</p>
+                    </div>
+                    <div class="col-md-2">
+                        <center><button class="btn btn-default btn-lg">Ver evento</button></center>
+                    </div>
+                </div>
+            </div>  
+            <div class="wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s" >
+                <div class="row">
+                    <div class="col-md-2 fechaev">
+                        <p class="numero">28</p>
+                        <p class="dia">Jueves</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Webinar On The Minute</h3>
+                        <p>Acompáñanos en este webinar gratuito sobre On The Minute</p>
+                        <p>17:00 – 18:00</p>
+                    </div>
+                    <div class="col-md-2">
+                        <center><button class="btn btn-default btn-lg">Ver evento</button></center>
+                    </div>
+                </div>
+            </div>  
+        </div>        
+    </section>
+
+    <section id="footer" class="footer-section">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-3">                    
+                    <div class="inner">
+                        <div class="logo">
+                            <center><img src="images/iis_logo_blanco.png" class="img-responsive" alt="" height="60" width="117" /></center>
+                        </div>
+                       <p class="subtitle2">Soluciones para Restaurantes es el <b>área espeacializada</b> de Inelco IT Solutions dedicada a ofrecer soluciones a empresas del sector de <b>alimentos</b> y bebidas</p>
+                    </div>            
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="nada">
+                        <h4>Contacto</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda">
+                       <p class="lugar">Monterrey</p>
+                       <p>Edificio Cintermex</p>
+                       <p>Av. Fundidora N° 501 Int. 18</p>
+                        <p>64010  Monterrey, N.L</p>
+                       <p>(81) 1352 2020</p>
+                        <p class="lugar slp">San Luis Potosí</p>
+                       <p>Mariano Otero N° 610 Int.3</p>
+                       <p>Tequisquiapan</p>
+                       <p>78250 San Luis Potosi</p>
+                       <p>(444) 211 9009</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">                         
+                    <div class="nada">                                                    
+                       <h4>Enlaces</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda links">   
+                       <p><a href="softrestaurant"> Soft Restaurant</a> </p>
+                       <p><a href="softfacturas"> Soft Facturas</a> </p>
+                       <p><a href="ontheminute"> On the Minute</a></p>
+                       <p><a href="nshoteles"> NS Hoteles</a></p>
+                       <br>
+                       <p><a href="http://canirac.org.mx/" target="_blank">CANIRAC</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="nada">
+                       <h4>Redes sociales</h4>
+                       <hr style="color: #fff;"/>
+                    </div>
+                    <div class="izquierda">   
+                       <div class="social"> 
+                            <a href="https://es-la.facebook.com/softrest/" target="_blank"><span class="icon-facebook-square"></span></a>
+                            <a href="https://twitter.com/SolucionesRest" target="_blank"><span class="icon-twitter-square"></span></a>
+                            
+                        </div>
+                        <script type="text/javascript">
+                            $(document).ready(function() {                                                
+                                var defaults = {
+                                    containerID: 'toTop', // fading element id
+                                    containerHoverID: 'toTopHover', // fading element hover id
+                                    scrollSpeed: 1200,
+                                    easingType: 'linear' 
+                                };                                                              
+                                $().UItoTop({ easingType: 'easeOutQuart' });
+                                                
+                            });
+                        </script>
+                        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">top </span></a>                  
+                    </div>
+                </div>
+            </div>
+            <p class="copy">Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/hover-dropdown.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

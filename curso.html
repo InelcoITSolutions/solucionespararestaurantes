@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Landing Page | Curso Syca</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/curso.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style-contador.css">    
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/script.js"></script>  -->
+    <script>
+       $(document).ready(function()
+       {
+          $("#myModal").modal("show");
+       });
+    </script> 
+  
+
+
+    <style>
+      .modal-header, .close {
+          background-color: #F7761F;
+          color:white !important;
+          text-align: center;
+          font-size: 20px;
+          line-height: 1.2;
+      }
+      .modal-footer {
+          background-color: #F7761F;
+      }
+      .btn-success{
+        background-color: #8A33B7; 
+      }
+      .btn-success:hover{
+        background-color: #5e1d80; 
+      }
+      .modal-header p{
+        font-size: 1em;
+      }
+      .modal-header h4{
+        font-size: 2em;
+        font-weight: 400;
+      }      
+
+
+    </style>
+</head>
+<body>
+<div class="container"> 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <a href="/"><button type="button" class="close">&times;</button></a>
+          <h4>Evento realizado</h4>
+            <p>Si deseas que te mantengamos informado de nuestros proximos eventos<br></p>
+            <br>
+            <b>Registrate aquí</b>
+            <br>
+            <i class="fa fa-hand-o-down fa-2x" aria-hidden="true"></i>
+
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" action="php/land-curso2.php" method="post">
+            <div class="form-group">
+              <label for="usrname">Nombre</label>
+              <input type="text" class="form-control validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="nombre" id="usrname" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="psw">Correo</label>
+              <input type="text" class="form-control validate[required,custom[onlyLetter],length[0,100]] feedback-input" name="correo" id="psw" placeholder="Escribe tu correo" required>
+            </div>
+            <div class="captchabox">
+                <center><div class="g-recaptcha" data-sitekey="6LfW-iMTAAAAAOvnTp1NLlBm2gpgwR91-u7CWFfu"></div></center>   
+            </div>
+            <br>            
+              <button type="submit" class="btn btn-success btn-block">Enterarme</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="/"><button class="btn btn-danger btn-default pull-left"><span class="glyphicon glyphicon-remove"></span>Cancelar</button></a>                   
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+ 
+   
+
+    <section class="secciones" id="banner">
+        <div class="container">         
+            <div class="row">
+                <div class="wow fadeInRight" data-wow-delay="0.5s" >
+                    <h1>Mejora la rentabilidad de tu restaurante con un mejor control y gestion de inventarios</h1>
+                </div>                
+                <div class="wow fadeInRight" data-wow-delay="0.5s" >
+                    
+                        <p>Asiste de manera <b>GRATUITA</b> a nuestro curso en línea <b>“Tips de administración y control de inventarios”</b> para aprender a llevar un mejor control en tu restaurante  </p>
+                    
+                    <center><a class="ancla2" href="#form" title="Registrarme al curso">
+                        <button class="btn btn-default btn-lg registrar" id="myBtn">Registrarme</button> 
+                    </a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="otro">
+        <h6>Curso en línea</h6>
+        <div class="titulo-curso">
+            <h2>“Tips de administración y control de inventarios”</h2>                          
+        </div>
+        <div class="col-md-5">
+            <img class="img-responsive" src="img/img-curso/softrestaurant.png" alt="logo-softrestaurant">
+        </div>
+        <div class="col-md-7">
+            <p>En este curso en línea aprenderás cómo llevar un mejor control de inventarios en tu restaurante utilizando la herramienta Soft Restaurant, el mejor software administrativo para restaurantes en México.</p>
+        </div>
+    </section>    
+    <section id="mas-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4" align="center">
+                    <img class="img-circle" src="img/img-curso/ens1.png" alt="" width="60" height="60">
+                    <h2>Identifica áreas de oportunidad</h2>
+                    <p>Tips de control de inventario. Errores comunes y como solucionarlos</p>
+                </div>
+                <div class="col-lg-4" align="center">
+                    <img class="img-circle" src="img/img-curso/ens2.png" alt="" width="60" height="60">
+                    <h2>Conoce la solución</h2>
+                    <p>Beneficios del control de inventario en Soft Restaurant 9.0</p>
+                </div>
+                <div class="col-lg-4" align="center">
+                    <img class="img-circle" src="img/img-curso/ens3.png" alt="" width="60" height="60">
+                    <h2>Inicia el control</h2>
+                    <p>Como automatizar el control de inventarios con Soft Restaurant</p>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <section id="expositor">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5" align="left">
+                    <img src="img/img-curso/expositor.png" class="img-responsive" alt="Oscar Mendoza">                    
+                </div>
+                <div class="col-md-7" align="left">
+                    <h4>Expositor:</h4>
+                    <h3>Oscar Mendoza</h3>
+                        <ul>
+                            <li>Empresario independiente con 15 años de experiencia.</li>
+                            <li>Director General en diferentes empresas.</li>
+                            <li>Programa perfeccionamiento Alta Direccion IPADE.</li>
+                            <li>Diplomado Reinvetarse através de la Estartegia.</li>
+                            <li>Diplomado en Ventas Estrategicas.</li>
+                            <li>Diplomado en Contribuciones Fiscales.</li>
+                            <li>Maestría Estrategia Empresarial.</li>
+                            <li>Consultor Certificado Aspel</li>
+                            <li>Certificación Impartición de Cursos</li>
+                        </ul>                   
+                </div>                
+            </div>            
+        </div>        
+    </section>
+    <section id="cronometro">
+        <div class="container">
+            <div class="row" align="center">
+                <h6>Curso en línea</h6>
+                <h5>Tips de adminstracion y control de inventarios</h5>
+                <h4>Miércoles 17 de agosto de 2016 <br>16:00 – 17:00</h4>
+                
+            </div>
+            <div id="main">   
+                <div id="counter"></div>
+                    <script type="text/javascript">
+                      $("#counter")
+                      .countdown("2016/08/17 16:00:00", function(event) {
+                        $(this).text(
+                          event.strftime('%D : %H : %M : %S')                                                    
+                        );                        
+                      });
+                    </script>
+                    <div class="lista" align="center">
+                        <ul>
+                            <li>
+                                <span>Dias</span> 
+                            </li>
+                            <li>
+                                <span>Horas</span>
+                            </li>
+                            <li>
+                                <span>Minutos</span>
+                            </li>
+                            <li>
+                                <span>Segundos</span>
+                            </li>
+                        </ul>                        
+                    </div>
+            </div>             
+            <h4>¡No dejes pasar esta oportunidad! Regístrate gratis HOY mismo</h4>
+                <div class="formulario-center" id="form">
+                    <center><form class="form-horizontal" role="form" id="form1" action="php/land-curso.php" method="post">
+                        <div class="col-sm-12">
+                            <input title="Agregue su nombre" name="nombre" type="text"  class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nombre" id="name" required />
+                        </div>
+                        <div class="col-sm-12">
+                            <input name="email" required="Agregue su email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="tel" title="Agregue su número telefonico" name="telefono" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Telefono" id="telefono" required />
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" title="Agregue el nombre de su empresa" name="empresa" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Empresa" id="empresa" required />
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="captchabox">
+                                <center><div class="g-recaptcha" data-sitekey="6LfW-iMTAAAAAOvnTp1NLlBm2gpgwR91-u7CWFfu"></div></center>   
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <!--<center><button type="submit" class="btn btn-info btn-block" id="button-send">Enviar</button></center>-->
+                            <center><button type="submit" class="btn btn-default btn-lg registrar" id="button-send" name="enviar">Registrarme</button></center>
+                        </div>
+                    </form></center>
+                </div>             
+        </div>
+
+    </section>
+     <footer>
+        <p>Copyright © Todos los Derechos Reservados Inelco IT Solutions S.A. de C.V. Monterrey, México 2016</p>
+    </footer>
+
+    
+    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script> -->
+    <script src="js/wow.min.js"></script>
+    <!--<script src="js/hover-dropdown.min.js"></script>-->
+    <script src="js/custom.js"></script>
+   
+    <script src="js/seccion2.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
+</body>
+</html>

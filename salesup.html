@@ -1,0 +1,248 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://socrates.salesup.com.mx/estilos/Reset.css">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+<script src="https://socrates.salesup.com.mx//scripts/jQuery/jquery.js"></script>
+<script type="text/javascript" src="https://socrates.salesup.com.mx/scripts/jquery-ui-1.8.10.custom-gris/js/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript" src="https://socrates.salesup.com.mx/scripts/handlebars/handlebars-v1.3.0.js"></script>
+<script type="text/javascript" src="https://socrates.salesup.com.mx/scripts/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="https://socrates.salesup.com.mx/scripts/FuncionesNuevas/FormatoMoneda.js"></script>
+
+<script>
+SP_SHORTDATEFORMAT='dd/mm/yy';//    Falla por quejavascript requiere unicamente 2 yy para el año
+var ConfiguracionPicker = { hangeYear: true,dateFormat: 'dd/mm/yy',startDate:'01/01/2000',dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'], dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'], monthNames:  ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],  
+    monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']}
+    
+    
+dateToday = new Date();
+var ConfiguracionPickerNoFechasPasadas = {hangeYear: true, minDate: dateToday,dateFormat: 'dd/mm/yy',startDate:'01/01/2000',dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'], dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'], monthNames:  ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],  
+    monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'] }    
+</script>
+
+<script type="text/javascript" src="https://fenix.salesup.com.mx/integra/Controlador/Funciones/Sistema.js?t=41766.7026239352"></script>
+<script type="text/javascript" src="https://fenix.salesup.com.mx/integra/Controlador/Funciones/PopUps.js?t=41766.7026239352"></script>
+<script type="text/javascript" src="https://fenix.salesup.com.mx/integra/Controlador/Funciones/Validaciones.js?t=41766.7026239352"></script>
+<script type="text/javascript" src="https://fenix.salesup.com.mx/integra/Controlador/Funciones/Constructores.js?t=41766.7026239352"></script>
+<script type="text/javascript" src="https://socrates.salesup.com.mx/scripts/FuncionesNuevas/FormatoFechas.js?t=41766.7026239352"></script>
+<link rel="stylesheet" href="https://socrates.salesup.com.mx/scripts/tipsy/tipsy.css"> 
+<script src="https://socrates.salesup.com.mx/scripts/tipsy/tipsy.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+localStorage.SysEsMobile = 0;
+var SalesUp = {};
+SalesUp.Variables = {};
+SalesUp.Sistema = new SistemaDefault();
+SalesUp.Ventana = new PopUps();
+SalesUp.Valida = new Validaciones();
+SalesUp.Construye = new ContructorUi();
+SalesUp.Fechas = new Fecha();
+
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="https://fenix.salesup.com.mx/integra/Estilo/ui.css">
+<link type="text/css" rel="stylesheet" href="https://fenix.salesup.com.mx/integra/Estilo/FontAwesome/FontAwesome.css" />
+<link type="text/css" rel="stylesheet" href="https://socrates.salesup.com.mx/estilos/v3/Botones.css" />
+<style>
+.Spinner, .FaltanDatos{
+  font-size: 18px;
+}
+.clear{clear: both;}
+
+.InfoDatoMal {
+    background: transparent !important;
+    color: #B94A48 !important;
+}
+.DatoMal{
+  font-size:12px !important;
+  font-weight: normal !important;
+}
+
+.InfoLabel{
+  padding: 2px 8px; margin-top: 0;
+}
+
+select.InfoData {
+    width: calc(100% - 100px) !important;
+}
+
+input.InfoData, label.InfoData {
+  height: 23px;
+}
+  #contenedor {margin:auto; width:800px; border:0px #CCC dotted; margin-top:20px; padding-top:15px;position: relative;}
+  #contenedor #ContForma h1{margin:auto; text-align:center ; margin:15px}
+  #contenedor #ContForma p{margin:auto; text-align:center }
+  #contenedor #ContForma #Campos{border:0px #C00 dotted}
+  
+  #contenedor #ContForma h1 {-webkit-animation-delay: 0s;
+h1, h2 - 0
+-webkit-animation-duration: 0.1s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-name: fontfix;
+-webkit-animation-timing-function: linear;
+-webkit-font-smoothing: antialiased;
+color: rgb(85, 85, 85);
+direction: ltr;
+display: block;
+font-family: 'Open Sans', arial;
+font-size: 20px;
+font-weight: normal;
+height: 24px;
+margin-bottom: 25px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-align: center;
+zoom: 1;
+ margin:auto
+ }
+  
+   
+#contenedor #ContForma p{
+  -webkit-animation-delay: 0s;
+  h1, h2 - 0
+-webkit-animation-duration: 0.1s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-name: fontfix;
+-webkit-animation-timing-function: linear;
+-webkit-font-smoothing: antialiased;
+color: rgb(85, 85, 85);
+direction: ltr;
+display: block;
+font-family: 'Open Sans', arial;
+font-size: 14px;
+font-weight: normal;
+height: 24px;
+margin-bottom: 15px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-align: center;
+zoom: 1;
+margin:auto
+  }
+#ContCampos {
+
+-webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px;
+background-color: rgb(247, 247, 247);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px;
+color: rgb(64, 64, 64);
+direction: ltr;
+display: block;
+font-family: Arial, sans-serif;
+font-size: 13px;
+margin-bottom: 20px;
+margin-top: 0px;
+padding:40px 30px;
+width: 300px;
+zoom: 1;
+margin:auto;
+
+}
+  
+#BtnEnviar {
+    margin-top: 20px;
+}
+
+</style>
+<script type="text/javascript" src="https://fenix.salesup.com.mx/integra/Controlador/ArmarFormaContacto.js?v=1"></script>
+<script type="text/javascript">
+  var Config = { };
+  $(function(){
+    var settings ='{"Estilo":{"Titulo":"Forma de Contacto","Mensaje":"Por favor ingresa tus datos","TituloTipoLetra":"Arial"},"Configuracion":{"Etiquetas":"2,4,7","IdOrigen":"3","IdFase":"3","SitioRespuesta":"http://www.salesup.com.mx","propietario":"0"},"Campos":[{"Id":"-1","Campo":"Nombre","Nombre":"Nombre","TipoCampo":"0","obligatorio":"true"},{"Id":"-2","Campo":"Apellidos","Nombre":"Apellidos","TipoCampo":"0","obligatorio":"false"}]}';
+
+ 
+  
+  
+ 
+
+
+
+     settings = '{"Estilo":{"Titulo":"Registro","TituloTipoLetra":"Verdana","ColorLetraTitulo":"rgb(84, 84, 92)","TamanoLetraTitulo":"16px","Mensaje":"","MensajeTipoLetra":"Verdana","ColorLetraMensaje":"rgb(45,45,45)","TamanoLetraMensaje":"15px","TipoLetraEtiquetas":"Verdana","TamanoLetraEtiquetas":"13px","ColorLetraEtiquetas":"rgb(45,45,45)","TipoLetraBoton":"Verdana","TamanoLetraBoton":"13.3333px","ColorLetraBoton":"rgb(255, 255, 255)","TipoLetraCampos":"Verdana","TamanoLetraCampos":"13.3333px","ColorLetraCampos":"rgb(45,45,45)","ColorCamposFondoTextA":"rgb(255,255,255)","ColorFondo":"rgb(255, 255, 255)","ColorBorde":"rgb(92, 92, 107)","ColorBoton":"rgb(237, 110, 19)","AnchoBorde":"1px"},"Configuracion":{"IdOrigen":"7242","idEtiquetas":"0","IdFase":"3832","propietario":"43573","idempresa":"32457","sitioGracias":"http://www.solucionespararestaurantes.mx/","CaptchaActivo":true,"Secret":"6LfW-iMTAAAAAEt1vxTaYliy47cnm7kpst_tlNuR","Site":"6LfW-iMTAAAAAOvnTp1NLlBm2gpgwR91-u7CWFfu"},"Campos":[{"Id":"CS-1","Campo":"Nombre","Nombre":"Nombre","EsSelect":null,"EsTextArea":null,"EsInput":"1","nFila":1,"Obligatorio":true},{"Id":"CS-2","Campo":"Apellidos","Nombre":"Apellidos","EsSelect":null,"EsTextArea":null,"EsInput":"1","nFila":2,"Obligatorio":false},{"Id":"CS-6","Campo":"Correo","Nombre":"Correo","EsSelect":null,"EsTextArea":null,"EsInput":"1","nFila":5,"Obligatorio":true},{"Id":"CS-17","Campo":"Comentario","Nombre":"Comentarios","EsSelect":null,"EsTextArea":"1","EsInput":null,"nFila":9,"Obligatorio":false},{"Id":"CS-3","Campo":"Empresa","Nombre":"Empresa","EsSelect":null,"EsTextArea":null,"EsInput":"1","nFila":3,"Obligatorio":false},{"Id":"CS-7","Campo":"Teléfono 1","Nombre":"Telefono1","EsSelect":null,"EsTextArea":null,"EsInput":"1","nFila":6,"Obligatorio":false}]}';
+//   console.log(settings);
+//   8/12/2016 2:08:31 PM
+      Config = JSON.parse(settings);
+     SalesUp.Variables.Campos = Config.Campos;
+     SalesUp.Variables.PaisDefault= 'MX';
+     SalesUp.Variables.DB = 'PITAGORAS.SALESUP_DB11';
+     console.info(SalesUp.Variables.DB, 'Base');
+     SalesUp.Variables.T = 'HME7B450F3-BC7C-4A7D-AEDC-71791E879A11';
+
+    var TemplateDatos = $("#contenedor").html();
+    var DatosTemplate = Handlebars.compile(TemplateDatos);
+    $("#contenedor").html(DatosTemplate(Config));
+     SalesUp.Variables.ArmaFormaContacto();
+     SalesUp.Sistema.IniciaPlugins();
+    //(Config.Estilo.ColorFondo='rgb(0,0,0)')? Config.Estilo.ColorFondo='rgb(45,45,45)':'';
+    (Config.Estilo.ColorLetraTitulo =='rgb(0,0,0)')?Config.Estilo.ColorLetraTitulo ='rgb(45,45,45)':'';
+    (Config.Estilo.ColorLetraEtiquetas=='rgb(0,0,0)')? Config.Estilo.ColorLetraEtiquetas ='rgb(45,45,45)':'';
+    (Config.Estilo.TipoLetraCampos=='rgb(0,0,0)')?Config.Estilo.TipoLetraCampos='rgb(45,45,45)':''; 
+
+   
+    EstilosForma = " <style> #ContCampos {-webkit-box-shadow:none; ;border:0px !important; background-color:"+Config.Estilo.ColorFondo+" !important; } ";
+
+   EstilosForma += "  #contenedor #BtnEnviar{ font-family: "+Config.Estilo.TipoLetraBoton +" !important; color: "+Config.Estilo.ColorLetraBoton +" !important; ";
+   EstilosForma += " font-size: "+Config.Estilo.TamanoLetraBoton+" !important; background: "+Config.Estilo.ColorBoton+" !important;  } ";
+
+   EstilosForma += "  .InfoLabel { font-family: "+Config.Estilo.TipoLetraEtiquetas +" !important; color: "+Config.Estilo.ColorLetraEtiquetas +" !important; ";
+   EstilosForma += " font-size: "+Config.Estilo.TamanoLetraEtiquetas+" !important;  } ";
+
+   EstilosForma += "  #contenedor select.InfoData,#contenedor textarea.TextAreaData,#contenedor input.InfoData { font-family: "+Config.Estilo.TipoLetraCampos +" !important; color: "+Config.Estilo.ColorLetraEtiquetas +" !important; ";
+   EstilosForma += " font-size: "+Config.Estilo.TamanoLetraCampos+" !important;  background: "+Config.Estilo.ColorCamposFondoTextA+" !important;  } ";
+
+   EstilosForma += " #contenedor{background: "+Config.Estilo.ColorFondo+" !important; border: "+Config.Estilo.AnchoBorde+" "+ Config.Estilo.ColorBorde +" solid !important; ";
+   EstilosForma += " }";
+
+   EstilosForma += "  #contenedor #ContForma h1{ font-family: "+Config.Estilo.TituloTipoLetra +" !important; color: "+Config.Estilo.ColorLetraTitulo +" !important; ";
+   EstilosForma += " font-size: "+Config.Estilo.TamanoLetraTitulo+" !important;  } ";
+
+   EstilosForma += "  #contenedor p#frTexto{ font-family: "+Config.Estilo.MensajeTipoLetra +" !important; color: "+Config.Estilo.ColorLetraMensaje +" !important; ";
+   EstilosForma += " font-size: "+Config.Estilo.TamanoLetraMensaje+" !important;  } ";
+   
+   EstilosForma += "  </style>";
+   $("body").append(EstilosForma);
+   $("#BtnEnviar").addClass("btnSubmit");
+
+   
+   
+   
+   
+   
+  }); /*FIN READY*/
+</script>
+</head>
+<body>
+<div id="contenedor">
+  <form id="frmContacto" action="https://acceso.salesup.com.mx/guarda_prospecto.dbsp" method="post">
+   <input id="SP_VERSION"  name="SP_VERSION"  value="2" type="hidden">
+   <input id="idempresa"  name="idempresa"  value="{{Configuracion.idempresa}}" type="hidden">
+   <input id="idusuario"  name="idusuario"  value="{{Configuracion.propietario}}" type="hidden">
+   <input id="idfase"     name="idfase"     value="{{Configuracion.IdFase}}" type="hidden">
+   <input id="idorigen"     name="idorigen" value="{{Configuracion.IdOrigen}}" type="hidden">
+   <input id="secretGoogle"     name="secret" value="{{Configuracion.Secret}}" type="hidden">
+   <input id="CaptchaActivo"     name="CaptchaActivo" value="{{Configuracion.CaptchaActivo}}" type="hidden">
+   <input id="idetiqueta" name="idetiqueta" rel="{{Configuracion.idEtiquetas}}" type="hidden" value="0{{Configuracion.idEtiquetas}}" >
+   <input id="sitiogracias" name="sitiogracias" rel="{{Configuracion.IdEtiquetas}}" value="{{#if Configuracion.sitioGracias}}{{Configuracion.sitioGracias}}{{else}}https://fenix.salesup.com.mx/facebook/gracias.dbsp{{/if}}" type="hidden">
+   <div id="ContForma">
+    <h1 id="frTitulo">{{Estilo.Titulo}}</h1>
+    <p id="frTexto">{{Estilo.Mensaje}}</p>
+    <div id="ContCampos">
+    <div id="Campos"></div>
+    <div class="clear"></div>
+    <div id="captcha">
+    {{#if Configuracion.CaptchaActivo}} 
+    <div  style="position:relative;" class="g-recaptcha" data-sitekey="{{Configuracion.Site}}"></div>
+    {{/if}}
+    </div>
+    <a href="#" onclick="SalesUp.Variables.EnviarForma();" class="Btn Btn-rounded Btn-small Btn-flat-Aceptar Btn-Block" id="BtnEnviar">
+      Enviar <i style="display:none;" class="fa fa-spinner Spinner"></i> <i style="display:none;" class="fa fa-times FaltanDatos"></i>
+    </a>
+   </div>
+  </form>
+</div>
+</body>
+</html>

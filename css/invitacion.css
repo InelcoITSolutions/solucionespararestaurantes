@@ -1,0 +1,434 @@
+body{
+	margin:0px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+	font-weight: 300;
+}
+
+button{
+	-webkit-transition: all 0.7s ease-in;
+	-moz-transition: all 0.7s ease-in;
+	-o-transition: all 0.7s ease-in;
+	transition: all 1s ease;
+}
+
+.navbar{
+	margin-bottom: 2px;
+}
+
+.navbar-default{
+	background: #fff;
+}
+
+.img-left{
+	float: left!important;
+	width: 70%;
+}
+
+.img-right{
+  float: right;
+	margin: 0;
+	width: 30%;	
+}
+
+.img-left .img-responsive{
+	width: 35%;
+	margin: 10px 0;
+}
+
+.img-right .img-responsive{
+  margin: 0px 10px;
+	width: 35%;
+	display: inline-block;
+}
+
+.secciones{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    max-width: 1450px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#banner{
+  	background-image: url(../img/img-presentacion/breakfast.gif);
+  	color: #FFF;
+	 
+}
+.image
+{
+	 padding-top: 8%;
+  	padding-bottom: 5%;
+	 background-color: rgba(0,0,0,0.4)
+}
+#banner h1{
+	font-size: 4em;
+	text-align: center;
+	padding-bottom: 1em;
+	line-height:1.5;
+	font-weight: 300;
+}
+#banner p
+{
+	font-size: 1.3em;
+}
+
+#banner .text-right{
+	font-size: 1.7em;
+	margin: 2em 0;
+	line-height: 1.7;
+}
+
+.registrar:hover{
+	background: #ac60d2;
+	color: #fff;
+	border: solid #ac60d2 1px;
+}
+
+.registrar{
+	margin-top: 0.2em;
+	border: solid #8A33B7 1px;
+	background: #8A33B7;
+	color: #fff;
+	/*! font-size: 1.7em; */
+	border-radius:0;
+	/*! padding: 0.7em 1em; */
+}
+
+.asistir{
+	padding: 4% 0;
+	color: #777;
+}
+
+.asistir h1{
+	font-size: 3em;
+	padding-bottom: 1em;
+	color: black;
+}
+
+.asistir span{
+	color: #F7761F;
+}
+
+.asistir p{
+	font-size: 1.5em;
+	line-height: 1.6;
+}
+
+.asistir b{
+	color: #8A33B7;
+}
+
+.paraquien{
+	background: #eee;
+	padding: 4% 0;
+}
+
+.paraquien h1{
+	text-align: right;
+	font-size: 3em;
+	padding-bottom: 1em;
+}
+
+.paraquien h1 span{
+	color: #8A33B7;
+}
+
+.paraquien p{
+	font-size: 1.5em;
+}
+
+.paraquien p span{
+	color: #F7761F;
+	font-size:3em;
+	vertical-align: middle!important;
+}
+
+.ofrece{
+	padding: 4% 0;
+	color: #777;
+}
+
+.ofrece h1{
+	font-size: 3em;
+	padding: 0.4em 0 0.4em 0.5em;
+	background: #F7761F;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+.ofrece .col-md-8 span{
+	color: #F7761F;
+}
+
+.ofrece .col-md-8 p{
+	font-size: 1.5em;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease;
+}
+
+.ofrece .col-md-8 span{
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease;
+}
+
+.ofrece .col-md-8 p:hover{
+	font-size: 1.6em;
+}
+
+.ofrece .col-md-8 p:hover >span{
+	color: #8A33B7;
+}
+
+.ofrece .col-md-4 p{
+	text-align: center;
+}
+
+.lugar{
+	padding: 4% 0;
+	border-top: solid #eee 3px;
+}
+
+.lugar p{
+	font-size: 3em;
+}
+
+.lugar b{
+	color: #8A33B7;
+}
+
+.lugar .img-responsive{
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
+
+.lugar .dir{
+	font-size: 1em;
+	line-height: 1;	
+}
+
+.lugar iframe{
+	margin-top: 3%;
+}
+
+
+.scrolloff {
+    pointer-events: none;
+}
+
+
+.fecha p{	
+	font-size: 2em;
+}
+
+.fecha .dia{
+	margin-top: 6%;
+}
+
+.timing p{
+	font-size: 2em;
+	/*! margin-top: 5%; */
+}
+
+.timing b{
+	color: #8A33B7;
+}
+
+.timing button{
+	float: none;	
+}
+
+#registro .formulario-center{
+	
+	margin: 0 auto!important;
+	width: 50%;
+}
+
+#registro .feedback-input {
+    color: #777;
+    font-weight: 400;
+    font-size: 1.3em;
+    border-radius: 1px;
+    line-height: 1.5em;
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #aaa;
+		transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+		-o-transition: 0.5s all;
+		-ms-transition: 0.5s all;
+}
+
+#registro .feedback-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 2px solid #8A33B7;
+    color: #8A33B7;
+    outline: none;
+    padding: 13px;
+}
+
+textarea {
+    text-align: justify;
+    width: 100%;
+    height: 200px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  /* background-color: floralwhite;*/
+	border: 2px solid #EC7623;
+	color: #EC7623;
+}
+
+
+footer{
+	background: #555;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+  font-size: 0.9em;
+	margin: 0;
+	padding: 2% 0;
+	margin-top: 7em ;
+}
+.imparte
+{
+	background-color: #8a33b7;
+	/*! height:4.5em; */
+	padding-top: 1%;
+	color: #fff;
+	margin-top: 5%;
+	padding-bottom: 1%;
+}
+#registro .lista ul
+{
+   /*! padding-right: 0px; */
+   padding-left: 11%;
+   padding-bottom: 5%;
+   padding-top: 0%;
+   margin: 0px;
+
+   color: #fff;
+   font-size: 1.1em;
+   text-align: center;
+}
+
+#registro .lista li
+{
+   list-style-type:none;
+   display: inline-block;
+   padding-right: 11%;
+   text-align: right;
+}
+.fondo-cronometro
+{
+	background-color:#EC7B2F;
+	width: auto;
+	height: 4em;
+	padding-top: .6%;
+	margin-top: 1%;
+}
+
+
+@media (max-width: 500px)
+{
+	#banner h1
+	{
+		font-size: 3em;
+		text-align: center;
+		padding-bottom: 1em;
+		line-height:1;
+		font-weight: 300;
+	}
+	#banner p
+	{
+		font-size: 1em;
+	}
+
+
+	#registro .lista ul
+	{
+	   /*! padding-right: 0px; */
+	   padding-left: 11%;
+	   padding-bottom: 5%;
+	   padding-top: 0%;
+	   margin: 0px;
+
+	   color: #fff;
+	   font-size: 1em;
+	   text-align: center;
+	}
+
+	#registro .lista li
+	{
+	   list-style-type:none;
+	   display: inline-block;
+	   padding-right: 11%;
+	   text-align: right;
+	}
+}
+@media (max-width: 380px)
+{
+
+
+	#registro .lista ul
+	{
+	   /*! padding-right: 0px; */
+	   padding-left: 11%;
+	   padding-bottom: 5%;
+	   padding-top: 0%;
+	   margin: 0px;
+
+	   color: #fff;
+	   font-size: 0.8em;
+	   text-align: center;
+	}
+
+	#registro .lista li
+	{
+	   list-style-type:none;
+	   display: inline-block;
+	   padding-right: 11%;
+	   text-align: right;
+	}
+}
+@media screen and (max-width: 430px)
+{
+	.g-recaptcha 
+	{
+		transform:scale(0.60);-webkit-transform:scale(0.58);
+		transform-origin:0 0;-webkit-transform-origin:0 0;
+	}
+	#banner h1
+	{
+		font-size: 2em;
+		text-align: center;
+		padding-bottom: 1em;
+		line-height:1;
+		font-weight: 300;
+	}
+	#banner p
+	{
+		font-size: 1em;
+	}
+
+}

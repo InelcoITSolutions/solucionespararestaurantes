@@ -1,0 +1,167 @@
+
+
+/*ESTILOS VENTANAs DE GIROS DE RESTAURANTES*/
+#ventana1, #ventana2, #ventana3, #ventana4, #ventana5, #ventana6
+{
+	
+		
+	
+	top: 3%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 95%;
+	height: 85%;
+	margin: auto;
+
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1002; /* Sit on top */
+    
+    
+    
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgb(255, 247, 247); /* Black w/ opacity */
+	
+}
+#ventana1 .container, #ventana2 .container, #ventana3 .container, #ventana4 .container, #ventana5 .container, #ventana6 .container
+{
+	background-color:#e68c1b;
+	/*! padding-top: 1%; */
+	margin-top: -8%;
+	color: #fff;
+	text-align: center;
+	
+	width: auto;
+	height: 26%;
+	vertical-align: middle;
+}
+#ventana1 h3, #ventana2 h3, #ventana3 h3, #ventana4 h3, #ventana5 h3, #ventana6 h3
+{
+	font-size: 2em;
+
+
+}
+#ventana1 .col-md-2, #ventana2 .col-md-2, #ventana3 .col-md-2, #ventana4 .col-md-2, #ventana5 .col-md-2, #ventana6 .col-md-2
+{
+	
+	margin-top: 2%;
+}
+#ventana1 h4, #ventana2 h4, #ventana3 h4, #ventana4 h4, #ventana5 h4, #ventana6 h4
+{
+	color: #e68c1b;
+	font-size: 1.2em;
+}
+
+#ventana1 .row p, #ventana2 .row p, #ventana3 .row p, #ventana4 .row p, #ventana5 .row p, #ventana6 .row p
+{
+	font-size: 1.2em;
+	text-align: center;
+}
+#ventana1 .col-md-6, #ventana2 .col-md-6, #ventana3 .col-md-6, #ventana4 .col-md-6, #ventana5 .col-md-6, #ventana6 .col-md-6
+{
+	/*! left: 7%; */
+	/*! right: 7%; */
+	padding-bottom: 2%;
+}
+#ventana1 .col-md-10, #ventana2 .col-md-10, #ventana3 .col-md-10, #ventana4 .col-md-10, #ventana5 .col-md-10, #ventana6 .col-md-10
+{	
+	margin-top: 3%;
+	/*! padding-right: 30%; */
+}
+/*#ventana1 .caption .nosotros-a, #ventana2 .caption .nosotros-a, #ventana3 .nosotros-a, #ventana4 .nosotros-a, #ventana5 .caption .nosotros-a, #ventana6 .caption .nosotros-a{
+    background: #CB6220;
+    opacity: 0.9;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 100px auto 0;
+    margin-right: 2%;
+
+}*/
+#ventana1 .caption .nosotros-a, #ventana2 .caption .nosotros-a, #ventana3 .caption .nosotros-a, #ventana4 .caption .nosotros-a, #ventana5 .caption .nosotros-a,
+#ventana6 .caption .nosotros-a {
+    background: #CB6220;
+    opacity: 0.9;
+    color: #fff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #CB6220;
+    margin: 0em 2em;
+    font-weight: 300;
+}
+#ventana1 .caption a, #ventana2 .caption a, #ventana3 .caption a, #ventana4 .caption a, #ventana5 .caption a, #ventana6 .caption a {
+    padding: 0.2% 1%;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+#ventana1 .nosotros-a:hover, #ventana2 .nosotros-a:hover, #ventana3 .nosotros-a:hover, #ventana4 .nosotros-a:hover, #ventana5 .nosotros-a:hover, #ventana6 .nosotros-a:hover{
+    background: #9a4a18;
+    border-color: #9a4a18;
+}
+#ventana1 .nota, #ventana2 .nota, #ventana3 .nota, #ventana4 .nota, #ventana5 .nota, #ventana6 .nota
+{
+	text-align: right;
+	padding-top: 2%;
+	margin-right: 2%;
+	padding-bottom: 2%;
+}
+
+/* ESILOS SECCION GIROS*/
+.giros ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+
+.giros li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5%;
+}
+#g1
+{
+	padding-top: 10%;
+	background-color:#b7e1de;
+	padding-bottom: 10%;
+}
+#g1 h2
+{
+	padding-bottom: 5%;
+	color: #faff;
+	padding: 5%;
+	text-align: left;
+}
+
+.overlay{
+     display: none;
+     position:fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     z-index:1001;
+     opacity:.75;
+     -moz-opacity: 0.75;
+     -webkit-opacity: 0.75;
+     -o-opacity:0.75;
+    -webkit-transition:all 0.5s ease-in;    
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+     
