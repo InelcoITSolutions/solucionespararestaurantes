@@ -9,7 +9,7 @@
                                 SOLUCIONES PARA RESTAURANTES
                             </h1>
                             <h2 class="lead">
-                                Encuentra las soluciones de tecnología y consultoría empresarial que necesitas para controlar y optimizar los procesos de tu restaurante, bar u hotel de manera segura y eficiente
+                                Encuentra las soluciones de tecnología1 y consultoría empresarial que necesitas para controlar y optimizar los procesos de tu restaurante, bar u hotel de manera segura y eficiente
                             </h2>
                             <a class="nosotros-a" href="nosotros">
                                 Sobre Nosotros

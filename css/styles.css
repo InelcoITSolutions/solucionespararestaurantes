@@ -21,7 +21,7 @@ body{
 }
 
 .navbar-default {
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.85);
     border-color: #ffffff;
     color: #ffffff;
     border: 0px;
@@ -42,7 +42,7 @@ p.navbar-brand{
 }
 
 .navbar-default .navbar-nav >li >a{    
-	margin: 5px 2px;
+	margin: 5px 1px;
     color: #fff;
     transition: all 800ms ease;
 	  

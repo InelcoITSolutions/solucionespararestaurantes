@@ -193,7 +193,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="dropdown grid">
+<!--                         <li class="dropdown grid">
                             <a aria-expanded="true" class="dropdown-toggle ancla" data-close-others="false" data-delay="500" data-hover="dropdown" data-toggle="dropdown" href="#">
                                 Tienda
                                 <b class="caret">
@@ -205,7 +205,7 @@
                                         <h4>
                                             Software
                                         </h4>
-                                        <!--h5>National Soft</h5>-->
+                                        <!--h5>National Soft</h5> -+>
                                         <ul class="multi-column-dropdown">
                                             <li>
                                                 <a class="list" href="tienda-prev">
@@ -232,7 +232,7 @@
                                     <ul class="multi-column-dropdown">
                                         <li><a class="list" href="#">COI</a></li>
                                         <li><a class="list" href="#">NOI</a></li>
-                                    </ul>-->
+                                    </ul>-+>
                                     </div>
                                     <div class="col-sm-3 menu-grids">
                                         <h4>
@@ -319,7 +319,7 @@
                                     </div>
                                 </div>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
