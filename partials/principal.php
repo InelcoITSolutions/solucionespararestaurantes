@@ -193,7 +193,22 @@
                                 </li>
                             </ul>
                         </li>
-<!--                         <li class="dropdown grid">
+                        <li>
+                            <!-- MENSAJE DE PRUEBA 16 - Julio - 18 -->
+                            <script>
+                              (function() {
+                                var cx = '010972545683301979037:el_so2gc818';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                              })();
+                            </script>
+                            <gcse:search></gcse:search>
+                        </li>
+                        <!-- <li class="dropdown grid">
                             <a aria-expanded="true" class="dropdown-toggle ancla" data-close-others="false" data-delay="500" data-hover="dropdown" data-toggle="dropdown" href="#">
                                 Tienda
                                 <b class="caret">
@@ -205,7 +220,7 @@
                                         <h4>
                                             Software
                                         </h4>
-                                        <!--h5>National Soft</h5> -+>
+                                        <!--h5>National Soft</h5>-+>
                                         <ul class="multi-column-dropdown">
                                             <li>
                                                 <a class="list" href="tienda-prev">

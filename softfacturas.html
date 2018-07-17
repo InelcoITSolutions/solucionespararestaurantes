@@ -33,171 +33,307 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>  
-                </button>
-                <p class="navbar-brand"><a href="/"><img src="imagenes/spr_logo_tb(1).png" class="img-responsive" alt="logo-restaurantes" width="320" height="40"></a></p>
-
-            </div>
-            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/" class="ancla">Inicio</a></li>
-                    
-                    <li class="dropdown active">
-                        <a href="software" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown">Software<b class="caret"></b>
+	        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle " data-target="#navbar" data-toggle="collapse" type="button">
+                        <span class="sr-only">
+                            Toggle Navigation
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                        <span class="icon-bar">
+                        </span>
+                    </button>
+                    <p class="navbar-brand">
+                        <a href="/">
+                            <img alt="logo-restaurantes" class="img-responsive" height="40" src="imagenes/spr_logo_tb(1).png" width="320"/>
                         </a>
-                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu2">
-                            <!--<li role="presentation" class="dropdown-header">National Soft</li>-->
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="softrestaurant">Soft Restaurant</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="ontheminute">On The Minute</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="nshoteles">NS Hoteles</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="softfacturas">Soft Facturas</a>
-                            </li>
-                            <!--<li role="presentation" class="dropdown-header">Aspel</li>
+                    </p>
+                </div>
+                <div aria-expanded="false" class="navbar-collapse collapse" id="navbar" style="height: 1px;">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="ancla" href="/">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="dropdown active">
+                            <a class="dropdown-toggle ancla" data-hover="dropdown" data-toggle="dropdown" href="software">
+                                Software
+                                <b class="caret">
+                                </b>
+                            </a>
+                            <ul aria-labelledby="dropdownMenu2" class="dropdown-menu MenProd" role="menu">
+                                <!--<li role="presentation" class="dropdown-header">National Soft</li>-->
+                                <li role="presentation">
+                                    <a href="softrestaurant" role="menuitem" tabindex="-1">
+                                        Soft Restaurant
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="ontheminute" role="menuitem" tabindex="-1">
+                                        On The Minute
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="nshoteles" role="menuitem" tabindex="-1">
+                                        NS Hoteles
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="softfacturas" role="menuitem" tabindex="-1">
+                                        Soft Facturas
+                                    </a>
+                                </li>
+                                <!--<li role="presentation" class="dropdown-header">Aspel</li>
                             <li role="presentation">
                                 <a role="menuitem" tabindex="-1" href="#">COI</a>
                             </li>
                             <li role="presentation">
                                 <a role="menuitem" tabindex="-1" href="#">NOI</a>
                             </li>-->
-                        </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Servicios<b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="servicios#implementacion">Implementación</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="servicios#asesoria">Asesoría</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="servicios#consultoria">Consultoría</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="servicios#capacitacion">Capacitación</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="servicios#soporte">Soporte</a>
-                            </li>                           
-                        </ul>
-                    </li>
-
-
-                    <li><a href="calendario" class="ancla">Calendario</a></li>
-
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Hardware<b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="hardware">Punto de venta</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">Equipo computo y servidores</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">Redes y comunicaciones</a>
-                            </li>
-                            <li role="presentation">
-                                <a role="menuitem" tabindex="-1" href="#">Energía y regulación</a>
-                            </li>                        
-                        </ul>
-                    </li>
-
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Contacto<b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu MenProd" role="menu" aria-labelledby="dropdownMenu1">
-                            <li role="presentation">
-                                <li><a href="nosotros" class="ancla">Sobre nosotros</a></li>
-                            </li> 
-                            <li role="presentation">
-                                <li><a href="contacto" class="ancla">Contactanos</a></li>
-                            </li>                                                 
-                        </ul>
-                    </li>
-
-                    
-                    
-                    <li class="dropdown grid">
-                        <a href="#" class="dropdown-toggle ancla" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="false" aria-expanded="true">Tienda<b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu multi-column multi-column2">
-                        
-                            <div class="row menu-desp">
-                                <div class="col-sm-3 menu-grids">
-                                    <h4>Software</h4>
-                                    <!--h5>National Soft</h5>-->
-                                    <ul class="multi-column-dropdown">
-                                        <li><a class="list" href="tienda-prev">SoftRestaurant</a></li>
-                                        <li><a class="list" href="tienda-prev">On The Minute</a></li>
-                                        <li><a class="list" href="tienda-prev">NS Hoteles</a></li>
-                                        <li><a class="list" href="tienda-prev">Soft Facturas</a></li>
-                                    </ul>
-                                    <!--<h5>Aspel</h5>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+                                Servicios
+                                <b class="caret">
+                                </b>
+                            </a>
+                            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu MenProd" role="menu">
+                                <li role="presentation">
+                                    <a href="servicios#implementacion" role="menuitem" tabindex="-1">
+                                        Implementación
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="servicios#asesoria" role="menuitem" tabindex="-1">
+                                        Asesoría
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="servicios#consultoria" role="menuitem" tabindex="-1">
+                                        Consultoría
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="servicios#capacitacion" role="menuitem" tabindex="-1">
+                                        Capacitación
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="servicios#soporte" role="menuitem" tabindex="-1">
+                                        Soporte
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="ancla" href="calendario">
+                                Calendario
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+                                Hardware
+                                <b class="caret">
+                                </b>
+                            </a>
+                            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu MenProd" role="menu">
+                                <li role="presentation">
+                                    <a href="hardware" role="menuitem" tabindex="-1">
+                                        Punto de venta
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#" role="menuitem" tabindex="-1">
+                                        Equipo computo y servidores
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#" role="menuitem" tabindex="-1">
+                                        Redes y comunicaciones
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#" role="menuitem" tabindex="-1">
+                                        Energía y regulación
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+                                Contacto
+                                <b class="caret">
+                                </b>
+                            </a>
+                            <ul aria-labelledby="dropdownMenu1" class="dropdown-menu MenProd" role="menu">
+                                <li role="presentation">
+                                    <li>
+                                        <a class="ancla" href="nosotros">
+                                            Sobre nosotros
+                                        </a>
+                                    </li>
+                                </li>
+                                <li role="presentation">
+                                    <li>
+                                        <a class="ancla" href="contacto">
+                                            Contactanos
+                                        </a>
+                                    </li>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- MENSAJE DE PRUEBA 16 - Julio - 18 -->
+                            <script>
+                              (function() {
+                                var cx = '010972545683301979037:el_so2gc818';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                              })();
+                            </script>
+                            <gcse:search></gcse:search>
+                        </li>
+                        <!-- <li class="dropdown grid">
+                            <a aria-expanded="true" class="dropdown-toggle ancla" data-close-others="false" data-delay="500" data-hover="dropdown" data-toggle="dropdown" href="#">
+                                Tienda
+                                <b class="caret">
+                                </b>
+                            </a>
+                            <ul class="dropdown-menu multi-column multi-column2">
+                                <div class="row menu-desp">
+                                    <div class="col-sm-3 menu-grids">
+                                        <h4>
+                                            Software
+                                        </h4>
+                                        <!--h5>National Soft</h5>-+>
+                                        <ul class="multi-column-dropdown">
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    SoftRestaurant
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    On The Minute
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    NS Hoteles
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Soft Facturas
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!--<h5>Aspel</h5>
                                     <ul class="multi-column-dropdown">
                                         <li><a class="list" href="#">COI</a></li>
                                         <li><a class="list" href="#">NOI</a></li>
-                                    </ul>-->
+                                    </ul>-+>
+                                    </div>
+                                    <div class="col-sm-3 menu-grids">
+                                        <h4>
+                                            Hardware
+                                        </h4>
+                                        <ul class="multi-column-dropdown">
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    PCs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Miniprinter
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Tabletas
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Servidores
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3 menu-grids">
+                                        <h4>
+                                            Otros
+                                        </h4>
+                                        <ul class="multi-column-dropdown">
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Redes
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Basculas
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Cajon de dinero
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Servidores
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3 menu-grids">
+                                        <h4>
+                                            Servicios
+                                        </h4>
+                                        <ul class="multi-column-dropdown">
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Instalación
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Capacitación
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Soporte
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list" href="tienda-prev">
+                                                    Consultoria
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
                                 </div>
-
-                                <div class="col-sm-3 menu-grids">
-                                    <h4>Hardware</h4>
-                                    <ul class="multi-column-dropdown">
-                                        <li><a class="list" href="tienda-prev">PCs</a></li>
-                                        <li><a class="list" href="tienda-prev">Miniprinter</a></li>
-                                        <li><a class="list" href="tienda-prev">Tabletas</a></li>
-                                        <li><a class="list" href="tienda-prev">Servidores</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-sm-3 menu-grids">
-                                    <h4>Otros</h4>
-                                    <ul class="multi-column-dropdown">
-                                        <li><a class="list" href="tienda-prev">Redes</a></li>
-                                        <li><a class="list" href="tienda-prev">Basculas</a></li>
-                                        <li><a class="list" href="tienda-prev">Cajon de dinero</a></li>
-                                        <li><a class="list" href="tienda-prev">Servidores</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-sm-3 menu-grids">
-                                    <h4>Servicios</h4>
-                                    <ul class="multi-column-dropdown">
-                                        <li><a class="list" href="tienda-prev">Instalación</a></li>
-                                        <li><a class="list" href="tienda-prev">Capacitación</a></li>
-                                        <li><a class="list" href="tienda-prev">Soporte</a></li>
-                                        <li><a class="list" href="tienda-prev">Consultoria</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="clearfix"></div>
-                            </div>
-
-                        </ul>
-                    </li>
-                </ul>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <section class="inicio-sf" id="inicio">
     	<div class="container">

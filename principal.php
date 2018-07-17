@@ -39,7 +39,7 @@
     </head>
     <body data-offset="50" data-spy="scroll" data-target=".navbar">
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="navbar-header">
                     <button class="navbar-toggle " data-target="#navbar" data-toggle="collapse" type="button">
                         <span class="sr-only">
@@ -194,6 +194,7 @@
                             </ul>
                         </li>
                         <li>
+                            <!-- MENSAJE DE PRUEBA 16 - Julio - 18 -->
                             <script>
                               (function() {
                                 var cx = '010972545683301979037:el_so2gc818';
@@ -205,7 +206,7 @@
                                 s.parentNode.insertBefore(gcse, s);
                               })();
                             </script>
-                            <gcse:search></gcse:search>
+                            <gcse:search> </gcse:search>
                         </li>
                         <!-- <li class="dropdown grid">
                             <a aria-expanded="true" class="dropdown-toggle ancla" data-close-others="false" data-delay="500" data-hover="dropdown" data-toggle="dropdown" href="#">

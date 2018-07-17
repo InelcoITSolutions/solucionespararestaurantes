@@ -9,7 +9,7 @@
                                 SOLUCIONES PARA RESTAURANTES
                             </h1>
                             <h2 class="lead">
-                                Encuentra las soluciones de tecnología1 y consultoría empresarial que necesitas para controlar y optimizar los procesos de tu restaurante, bar u hotel de manera segura y eficiente
+                                Encuentra las soluciones de tecnología y consultoría empresarial que necesitas para controlar y optimizar los procesos de tu restaurante, bar u hotel de manera segura y eficiente
                             </h2>
                             <a class="nosotros-a" href="nosotros">
                                 Sobre Nosotros
@@ -205,11 +205,13 @@
                                 </div>
                                 <div class="row">
                                 <div class="container">
+                                     <div class="col-md-8">
+                                        <img alt="pantallas" class="img-responsive dispos " id="soft-restaurante-img" src="images/national-soft.png">
+                                        </img>
+                                    </div>
 
-                                   
-                                    
-                                    <div class="col-md-8">
-                                        <h2 class="control" style="text-align: left;">
+                                    <div class="col-md-4">
+                                        <h2 class="control" style="text-align: center;">
                                             
                                         La solución ideal para administración de hoteles y moteles
                                         </h2>
@@ -218,10 +220,6 @@
                                         </a>
                                     </div>
 
-                                     <div class="col-md-4">
-                                        <img alt="pantallas" class="img-responsive dispos" src="images/national-soft.png">
-                                        </img>
-                                    </div>
                                 </div>
                                 </div>
                             </div>
